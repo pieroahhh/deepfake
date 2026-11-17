@@ -1,0 +1,92 @@
+{
+  "profile_id": "avfakenet-reconstruction-v1",
+  "status": "PAPER_GUIDED_RECONSTRUCTION_UNTRAINED_UNCALIBRATED",
+  "source_sha256": "b761456da20989dcad126af3b6be7a5127085b108a2978ea57bbccc4ff4eb0e8",
+  "architecture": {
+    "input_channels": 3,
+    "input_dense_widths": [
+      32,
+      64,
+      64
+    ],
+    "patch_size": 3,
+    "embedding_dimension": 64,
+    "stage_depths": [
+      2,
+      2,
+      2
+    ],
+    "attention_heads": [
+      2,
+      4,
+      8
+    ],
+    "window_size": 7,
+    "shift_size": 3,
+    "mlp_multipliers": [
+      4,
+      4,
+      2,
+      1
+    ],
+    "output_dense_widths": [
+      256,
+      128
+    ],
+    "dropout": 0.1,
+    "layer_norm_epsilon": 1e-05,
+    "relative_position_bias": true,
+    "qkv_bias": true
+  },
+  "preprocessing": {
+    "visual_pixels": 128,
+    "audio_pixels": 175,
+    "audio_sample_rate": 16000,
+    "n_fft": 2048,
+    "hop_length": 512,
+    "n_mels": 175,
+    "mel_rendering": "fixed_db_grayscale_replicated_rgb",
+    "db_reference": "per_clip_max_power",
+    "db_floor": -80.0,
+    "normalization": "unit_interval",
+    "face_input": "caller_supplied_RGB_face_crop",
+    "frame_sampling": "not_implemented",
+    "resize_interpolation": "bilinear",
+    "audio_mono": "mean_channels_before_resampling",
+    "resample_type": "soxr_hq",
+    "stft_window": "hann",
+    "stft_center": true,
+    "stft_pad_mode": "constant",
+    "mel_power": 2.0,
+    "mel_htk": false,
+    "mel_norm": "slaney",
+    "mel_fmin": 0.0,
+    "mel_fmax": 8000.0,
+    "power_to_db_amin": 1e-10,
+    "minimum_peak_power": 1e-10
+  },
+  "training": {
+    "optimizer": "AdamW",
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "betas": [
+      0.9,
+      0.999
+    ],
+    "epsilon": 1e-08,
+    "batch_size": 16,
+    "label_smoothing": 0.1,
+    "loss": "mean_two_output_softmax_bce_uniform_label_smoothing",
+    "early_stopping_metric": "validation_accuracy",
+    "early_stopping_patience": 5,
+    "maximum_epochs": 100,
+    "scheduler": "none",
+    "checkpoint_ties": "keep_first_strict_accuracy_improvement"
+  },
+  "decision": {
+    "tie_break": "unassessed",
+    "frame_class_tie": "argmax_first_class_real",
+    "fusion": "hard_OR",
+    "continuous_fused_score": null
+  }
+}

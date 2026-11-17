@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fk-deepfake-detection"
+version = "0.1.0"
+description = "Dataset-independent foundations for the FK forensic detection experiment"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.optional-dependencies]
+model = ["torch"]
+avfakenet = ["torch", "numpy", "librosa"]
+infrastructure = ["torch", "torchvision", "transformers", "numpy", "av", "opencv-python-headless", "soundfile", "safetensors"]
+reports = ["numpy", "scikit-learn", "matplotlib", "psutil"]
+
+[project.scripts]
+fk = "deepfake_detection.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src", "."]
+include = ["deepfake_detection*", "baselines*"]
+
+[tool.setuptools.package-data]
+"baselines.avfakenet" = ["configs/*.json", "*.md"]
+"baselines.avtenet" = ["configs/*.json", "*.md", "runtime/*"]

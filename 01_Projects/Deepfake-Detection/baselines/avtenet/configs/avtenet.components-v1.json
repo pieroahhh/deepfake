@@ -1,0 +1,71 @@
+{
+  "profile_id": "avtenet-ff-avhubert-components-v1",
+  "status": "PARTIAL_RECONSTRUCTION_NO_PRETRAINED_EXPERTS",
+  "variant": "feature_fusion_vivit_ast_avhubert",
+  "source_sha256": "be7eda054e2824aaf86c291e575a0ccc3c14c7f6d3445f6ab84a476a1381f197",
+  "expert_feature_dimensions": {
+    "visual": 768,
+    "audio": 768,
+    "audiovisual": 768
+  },
+  "temporal_head": {
+    "input_dimension": 768,
+    "branch_channels": 256,
+    "kernels": [
+      7,
+      5,
+      3
+    ],
+    "convolution_groups_per_block": 2,
+    "blocks": 1,
+    "dropout": 0.2,
+    "batch_norm_epsilon": 1e-05,
+    "batch_norm_momentum": 0.1,
+    "prelu_parameters": 1,
+    "residual_channels": 768,
+    "padding": "symmetric_same",
+    "pooling": "unweighted_mean_no_padded_sequences"
+  },
+  "fusion": {
+    "feature_order": [
+      "visual",
+      "audio",
+      "audiovisual"
+    ],
+    "classifier": "single_linear_to_real_logit",
+    "input_dimension": 2304,
+    "output_dimension": 1,
+    "experts_frozen": true
+  },
+  "labels": {
+    "external_fake": 1,
+    "native_real": 1,
+    "native_fake": 0,
+    "external_score": "sigmoid(-native_real_logit)"
+  },
+  "training": {
+    "optimizer": "Adam",
+    "learning_rates": {
+      "visual": 0.0001,
+      "audio": 1e-05,
+      "audiovisual": 0.002,
+      "fusion": 0.002
+    }
+  },
+  "required_external_artifacts": {
+    "factorized_vivit_kinetics_checkpoint": null,
+    "ast_audioset_checkpoint": null,
+    "avhubert_lrs3_checkpoint": null,
+    "expert_implementation_commits": null,
+    "preprocessing_profile": null
+  },
+  "unresolved": [
+    "exact ViViT factorized-encoder checkpoint and architecture",
+    "AST checkpoint, classification-token extraction and Mel normalization",
+    "AV-HuBERT architecture/checkpoint and legacy environment",
+    "lip extraction, AV alignment, clip aggregation and sampling",
+    "paper 756-channel notation versus concatenated 768 channels",
+    "paper 2.89M decision module parameters versus specified linear fusion",
+    "batch sizes, training budget, validation policy and data adapters"
+  ]
+}

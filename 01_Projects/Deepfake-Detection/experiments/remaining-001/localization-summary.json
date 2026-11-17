@@ -1,0 +1,24 @@
+{
+  "videos": 1000,
+  "seconds": {
+    "fn": 113.14000000000007,
+    "fp": 301.34000000000003,
+    "tn": 7578.260000000003,
+    "tp": 183.2599999999999,
+    "unassessed_negative": 908.2849999999997,
+    "unassessed_positive": 27.92999999999999
+  },
+  "duration_weighted_assessed_region": {
+    "precision": 0.3781675608749483,
+    "recall": 0.618286099865047,
+    "f1": 0.4692957746478871,
+    "iou": 0.30658814869341167
+  },
+  "time_assessment_coverage": 0.897257143296114,
+  "manipulated_time_assessment_coverage": 0.9138840070298769,
+  "detected_fraction_of_all_manipulated_time": 0.5650417784355438,
+  "scope": "Summary of existing frozen-threshold FK timeline adapter, not a new localization model",
+  "consolidation": "endpoint_partition_mean_of_covering_assessed_bins",
+  "source_sha256": "e63f74950b77889d23676ba85340569a1f660a6a44bff527b672e04b2122a2aa",
+  "window_threshold": 0.08019145578145981
+}

@@ -1,0 +1,16 @@
+# Preparation stack; exact working versions are frozen after successful setup.
+numpy
+scipy
+pandas
+scikit-learn
+opencv-python-headless
+librosa
+soundfile
+transformers
+timm
+huggingface-hub
+av
+static-ffmpeg
+pytest
+safetensors
+matplotlib

@@ -1,0 +1,12 @@
+{
+  "schema": "local-model-assets-v1",
+  "artifacts": {
+    "factorized_vivit": {"directory": null, "manifest": null},
+    "ast": {"directory": null, "manifest": null},
+    "efficientnet_b0": {"directory": null, "manifest": null},
+    "wav2vec2_base": {"directory": null, "manifest": null}
+  },
+  "silero": {"path": null, "sha256": null},
+  "detector": {"kind": null, "path": null, "sha256": null},
+  "avhubert": {"python": null, "repository": null, "commit": null, "checkpoint": null, "checkpoint_sha256": null}
+}

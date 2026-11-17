@@ -1,0 +1,42 @@
+{
+  "status": "PROVISIONAL_UNCALIBRATED_NOT_FOR_TEST_EVALUATION",
+  "paper_fixed": {
+    "window_seconds": 2.0,
+    "stride_seconds": 1.0,
+    "frames_per_second": 25,
+    "face_pixels": 224,
+    "audio_sample_rate": 16000,
+    "bins": 10,
+    "dimension": 128,
+    "minimum_speech_coverage": 0.5
+  },
+  "reconstruction_choices": {
+    "visual_feature_dimension": 1280,
+    "audio_feature_dimension": 768,
+    "gru_hidden": 128,
+    "pooling": "mean within feature-center timestamp bins; reject empty bins",
+    "gru_reset": "each window",
+    "projection": "linear; bias except attention matrices",
+    "quality_dimension": 2,
+    "reliability_network": "linear-ReLU-linear then sigmoid",
+    "evidence_head": "linear to scalar"
+  },
+  "decision": {
+    "bins": 10,
+    "top_k": 3,
+    "peak_weight": 0.5,
+    "top_ratio": 0.2,
+    "video_peak_weight": 0.5,
+    "window_threshold": 0.5,
+    "video_threshold": 0.5,
+    "reliability_temperature": 1.0
+  },
+  "unresolved": [
+    "dataset metadata and annotation audit",
+    "face detector and tracker",
+    "quality estimators and thresholds",
+    "encoder checkpoint versions, hashes and feature-center mappings",
+    "optimizer, stopping policy, loss weights and training budget",
+    "validation selection of all decision parameters"
+  ]
+}

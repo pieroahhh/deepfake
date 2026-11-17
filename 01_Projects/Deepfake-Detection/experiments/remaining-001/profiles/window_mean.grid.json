@@ -1,0 +1,23 @@
+{
+  "top_k": [
+    10
+  ],
+  "peak_weight": [
+    0.0
+  ],
+  "top_ratio": [
+    0.1,
+    0.2,
+    0.5
+  ],
+  "video_peak_weight": [
+    0.0,
+    0.5,
+    1.0
+  ],
+  "reliability_temperature": [
+    0.25,
+    0.5,
+    1.0
+  ]
+}

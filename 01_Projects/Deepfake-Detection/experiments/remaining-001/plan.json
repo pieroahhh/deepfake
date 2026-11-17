@@ -1,0 +1,111 @@
+{
+  "schema": "remaining-study-preparation-v1",
+  "status": "PREPARED_NOT_EXECUTED",
+  "active_heldout_must_complete_first": "C:\\Users\\teeku\\Desktop\\fk\\Deepfake-Detection\\runs\\avfakenet-heldout-002\\complete.json",
+  "training_cache_manifest": "C:\\Users\\teeku\\Desktop\\fk\\Deepfake-Detection\\runs\\two-day-001\\experiment\\fk\\cache\\training-manifest.json",
+  "heldout_manifest_sha256": "c60bc02bf696360c3dfce8eca2a9a895b84db864e51255639e1529e23893c5b5",
+  "base_training_run_sha256": "1e742c22b9d72211583554963428786c95001ddfb5aa242f69d2d43cb73dd653",
+  "ablation_runs": [
+    {
+      "variant": "full",
+      "priority": "core",
+      "model_config": "profiles/full.json",
+      "calibration_grid": "profiles/full.grid.json",
+      "epochs": 5,
+      "seed": 7,
+      "status": "PREPARED_NOT_RUN"
+    },
+    {
+      "variant": "no_av",
+      "priority": "core",
+      "model_config": "profiles/no_av.json",
+      "calibration_grid": "profiles/no_av.grid.json",
+      "epochs": 5,
+      "seed": 7,
+      "status": "PREPARED_NOT_RUN"
+    },
+    {
+      "variant": "no_temporal",
+      "priority": "core",
+      "model_config": "profiles/no_temporal.json",
+      "calibration_grid": "profiles/no_temporal.grid.json",
+      "epochs": 5,
+      "seed": 7,
+      "status": "PREPARED_NOT_RUN"
+    },
+    {
+      "variant": "uniform_weights",
+      "priority": "core",
+      "model_config": "profiles/uniform_weights.json",
+      "calibration_grid": "profiles/uniform_weights.grid.json",
+      "epochs": 5,
+      "seed": 7,
+      "status": "PREPARED_NOT_RUN"
+    },
+    {
+      "variant": "window_max",
+      "priority": "aggregation",
+      "model_config": "profiles/window_max.json",
+      "calibration_grid": "profiles/window_max.grid.json",
+      "epochs": 5,
+      "seed": 7,
+      "status": "PREPARED_NOT_RUN"
+    },
+    {
+      "variant": "window_mean",
+      "priority": "aggregation",
+      "model_config": "profiles/window_mean.json",
+      "calibration_grid": "profiles/window_mean.grid.json",
+      "epochs": 5,
+      "seed": 7,
+      "status": "PREPARED_NOT_RUN"
+    },
+    {
+      "variant": "video_max",
+      "priority": "aggregation",
+      "model_config": "profiles/video_max.json",
+      "calibration_grid": "profiles/video_max.grid.json",
+      "epochs": 5,
+      "seed": 7,
+      "status": "PREPARED_NOT_RUN"
+    },
+    {
+      "variant": "video_mean",
+      "priority": "aggregation",
+      "model_config": "profiles/video_mean.json",
+      "calibration_grid": "profiles/video_mean.grid.json",
+      "epochs": 5,
+      "seed": 7,
+      "status": "PREPARED_NOT_RUN"
+    }
+  ],
+  "minimum_batch": [
+    "full",
+    "no_av",
+    "no_temporal",
+    "uniform_weights"
+  ],
+  "optional_training_seeds": [
+    17,
+    27
+  ],
+  "bootstrap": {
+    "replicates": 2000,
+    "seed": 7,
+    "group": "source_family",
+    "reference": "FK",
+    "metrics": [
+      "balanced_accuracy",
+      "f1"
+    ],
+    "timing": "after all primary predictions complete",
+    "scope": "exploratory evaluation-sampling uncertainty, not training-seed variance"
+  },
+  "controls": "Already trained/evaluated in runs/shared-controls-001; do not retrain without a separate reason",
+  "transfer": {
+    "dataset": "FakeAVCeleb",
+    "status": "DEFERRED_DATASET_ACCESS_AND_OVERLAP_AUDIT_REQUIRED"
+  },
+  "no_gpu_work_started": true,
+  "no_original_artifacts_modified": true
+}

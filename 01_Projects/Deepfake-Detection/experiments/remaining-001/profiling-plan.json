@@ -1,0 +1,24 @@
+{
+  "status": "PREPARED_NOT_RUN",
+  "clips": 12,
+  "unit": "same raw source clips on this hardware",
+  "boundaries": [
+    "decode/hash/preprocessing",
+    "model only",
+    "FK record generation/verification",
+    "end-to-end"
+  ],
+  "warmups": 1,
+  "measured_repeats": 3,
+  "synchronize_cuda_before_and_after_timer": true,
+  "report": [
+    "median seconds/clip",
+    "seconds/source-second",
+    "peak CUDA allocated/reserved",
+    "process RSS",
+    "failure/coverage"
+  ],
+  "separate_cold_and_warm_cache": true,
+  "do_not_run_during_heldout": true,
+  "warning": "Historical concurrent wall times and synthetic head smoke timings are not fair end-to-end benchmarks"
+}

@@ -1,0 +1,39 @@
+{
+  "status": "PREPARED_NOT_RUN",
+  "population": "100 frozen held-out clips, 25 per manipulation type",
+  "selection": "lowest SHA256(seed=7, video_id) within type; no prediction-outcome selection",
+  "study_status": "exploratory follow-up after clean held-out inspection",
+  "conditions": [
+    {
+      "kind": "clean",
+      "strength": null
+    },
+    {
+      "kind": "video_compression",
+      "strength": 28
+    },
+    {
+      "kind": "video_compression",
+      "strength": 38
+    },
+    {
+      "kind": "audio_compression",
+      "strength": 64
+    },
+    {
+      "kind": "audio_compression",
+      "strength": 32
+    }
+  ],
+  "separate_sync_stress": {
+    "real_clips_only": true,
+    "audio_delay_seconds": [
+      0.08,
+      0.16,
+      0.32
+    ],
+    "outcome": "false alarm/assessment rate, not relabeled fake"
+  },
+  "unimplemented_bulk_adapter": "Derivative manifest, timestamp/label preservation review, and all-method inference must be completed before bulk scoring",
+  "prepared_input_helpers": "deepfake_detection.robustness supports blur/downsample/JPEG/audio noise; these are not raw-media end-to-end tests"
+}

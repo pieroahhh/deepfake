@@ -1,0 +1,11 @@
+{
+  "status": "PASSED",
+  "manifest_sha256": "d5b2aa8d9d39150b3f26dd35ffd59245303d7924218ac1ef7fc849a2c3310622",
+  "verified_sample_cache_per_split": true,
+  "counts": {
+    "train": 2912,
+    "validation": 485
+  },
+  "scope": "Read-only first-cache probe, not a full cache audit or training run",
+  "gpu_work_started": false
+}

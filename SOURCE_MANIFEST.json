@@ -1,0 +1,2138 @@
+{
+  "date": "2026-11-17",
+  "origin_commit": "80896bac8df173d7c29033edc133bac7ee89000e",
+  "files": {
+    "01_Projects/Deepfake-Detection/src/deepfake_detection/__init__.py": {
+      "sha256": "a26f4ca114a8cd5f23651cc7f655e47161f65a218cc093e0c8288a13a425c844",
+      "bytes": 69
+    },
+    "01_Projects/Deepfake-Detection/src/deepfake_detection/artifacts.py": {
+      "sha256": "a78d8c7457b1f1756331db692345922d7bc9d97c9568ddf01a09202422a098c3",
+      "bytes": 2686
+    },
+    "01_Projects/Deepfake-Detection/src/deepfake_detection/asset_download.py": {
+      "sha256": "46232e7a7d365673dc51d61d72a11a4623cac2cba6bed3b8a555b2dc8afdd640",
+      "bytes": 13568
+    },
+    "01_Projects/Deepfake-Detection/src/deepfake_detection/avdeepfake1m.py": {
+      "sha256": "1ed42931483275e3a1fd284f4cba40935b3d5ec100e573b40b189e59c16b9af3",
+      "bytes": 17103
+    },
+    "01_Projects/Deepfake-Detection/src/deepfake_detection/avfakenet.py": {
+      "sha256": "7bd36b969a79ba97b2bf30983630e9b47bae411a6d5c4b5ba89392aba7a90031",
+      "bytes": 350
+    },
+    "01_Projects/Deepfake-Detection/src/deepfake_detection/avfakenet_preprocessing.py": {
+      "sha256": "e2eb094a9ba34d00e4f94c5660e4d5ee413a8e5c2572fe99fc7bc70dd723565b",
+      "bytes": 374
+    },
+    "01_Projects/Deepfake-Detection/src/deepfake_detection/avfakenet_smoke.py": {
+      "sha256": "03e93f8f05eb52b58afc50eae43aa54a7795671944264e11f3848c8feed80987",
+      "bytes": 2900
+    },
+    "01_Projects/Deepfake-Detection/src/deepfake_detection/avfakenet_training.py": {
+      "sha256": "41ba5fcd8bf4d897c9ef05d7b092d23708a65b3dbdc656f57cb42c6f0c730ed3",
+      "bytes": 380
+    },
+    "01_Projects/Deepfake-Detection/src/deepfake_detection/avhubert_preparation.py": {
+      "sha256": "85f0262381bb262c4d47bd8975735f2cb1e8500aac5c5fa303c83d405a2884eb",
+      "bytes": 3048
+    },
+    "01_Projects/Deepfake-Detection/src/deepfake_detection/avtenet.py": {
+      "sha256": "6dbc1b40cc6dacdbec1e205ca4db0ee9e911057009fdd6e29b972b7ea5ab8ad9",
+      "bytes": 344
+    },
+    "01_Projects/Deepfake-Detection/src/deepfake_detection/avtenet_training.py": {
+      "sha256": "95602c4c5c2ba4bdf4db0fa276be799c1cb04e5c0c6aec6f5d87a323cd1805a0",
+      "bytes": 374
+    },
+    "01_Projects/Deepfake-Detection/src/deepfake_detection/backbones.py": {
+      "sha256": "b8c4c52e557840e7236a44ea7d3e9f33b33b686809e6a2fc74e09b910bd90adc",
+      "bytes": 12318
+    },
+    "01_Projects/Deepfake-Detection/src/deepfake_detection/baselines.py": {
+      "sha256": "ec0a039e42ad01e5b9fa9388e4dd677338e02453ed112834f2f1198f300f7716",
+      "bytes": 1442
+    },
+    "01_Projects/Deepfake-Detection/src/deepfake_detection/calibration.py": {
+      "sha256": "b99cf97112963f9560f772d2520e6a93dab748cce39b69173fc9c4380acc9f0b",
+      "bytes": 4174
+    },
+    "01_Projects/Deepfake-Detection/src/deepfake_detection/checkpoint_conversion.py": {
+      "sha256": "efe0f215361bf2770ac004c1df7c489550b5a86910d29fc830d14bb67a373e55",
+      "bytes": 4833
+    },
+    "01_Projects/Deepfake-Detection/src/deepfake_detection/cli.py": {
+      "sha256": "f61a18a6936fea1d8d6e744473722fd04faa859ac3fdfcc8f1838b0c3555d32a",
+      "bytes": 16989
+    },
+    "01_Projects/Deepfake-Detection/src/deepfake_detection/commands.py": {
+      "sha256": "4bc46dafb8fcf27ed36fbed98d74e9ebc7ce5a69fef53730a7b3d1be4db8ddbe",
+      "bytes": 5767
+    },
+    "01_Projects/Deepfake-Detection/src/deepfake_detection/core.py": {
+      "sha256": "a10e2ba5f1b277ad199ac7b8d14f72a65aec30a06717d6d6e210160acfda9f78",
+      "bytes": 6005
+    },
+    "01_Projects/Deepfake-Detection/src/deepfake_detection/data.py": {
+      "sha256": "46dafa5beda70634ec4f240334902d61e5cffd0f69abf6ea3ebab7be378ae22b",
+      "bytes": 4579
+    },
+    "01_Projects/Deepfake-Detection/src/deepfake_detection/encoders.py": {
+      "sha256": "344c66ee62bd7195431556aa48df8587ad3ba1a2c5ef49e3a5a8ddf92c362e2f",
+      "bytes": 6789
+    },
+    "01_Projects/Deepfake-Detection/src/deepfake_detection/evaluation.py": {
+      "sha256": "e149a10c931c200f7687df0c1ebd00ae635a2786619f2115d97c6110904788cb",
+      "bytes": 2904
+    },
+    "01_Projects/Deepfake-Detection/src/deepfake_detection/experiments.py": {
+      "sha256": "031e14c06c53a750db2218e9e43fb3c7d11db8c46c11e4addd238b8fc9ece3ad",
+      "bytes": 3564
+    },
+    "01_Projects/Deepfake-Detection/src/deepfake_detection/faces.py": {
+      "sha256": "dcbc7a4af71038766fae0780c752579b096fa617415c30142d9c31c97e2638be",
+      "bytes": 9104
+    },
+    "01_Projects/Deepfake-Detection/src/deepfake_detection/feature_cache.py": {
+      "sha256": "1478c97c98e9c10f956295a15a68f21e2e8cd3492eee652e5221de5fbf93a140",
+      "bytes": 3528
+    },
+    "01_Projects/Deepfake-Detection/src/deepfake_detection/fk_caching.py": {
+      "sha256": "53de12b2b4255f3313f40a69b279a780dddc0bf9f959f778d5f46f8a110a1537",
+      "bytes": 14165
+    },
+    "01_Projects/Deepfake-Detection/src/deepfake_detection/forensics.py": {
+      "sha256": "c52267482944f7ec97ca986e574b56dfb205dc726068968c283c83e8197ebf28",
+      "bytes": 8885
+    },
+    "01_Projects/Deepfake-Detection/src/deepfake_detection/gpu_queue.py": {
+      "sha256": "338352db9133b48ede8daa45f260cdfd26d7370c5a1e611b405727aca234957d",
+      "bytes": 2503
+    },
+    "01_Projects/Deepfake-Detection/src/deepfake_detection/inference.py": {
+      "sha256": "b202b0ee3fe5f3885b97acad78d508828b0e75e16ab21fc3cf99d095fa960d7e",
+      "bytes": 10251
+    },
+    "01_Projects/Deepfake-Detection/src/deepfake_detection/infrastructure.py": {
+      "sha256": "f89cc306b527e674205cb55afaf10c793ffb61da571308fd5267e41efeee420a",
+      "bytes": 9944
+    },
+    "01_Projects/Deepfake-Detection/src/deepfake_detection/lavdf.py": {
+      "sha256": "11b5884454a8ad9ea5374d5ca2f256f7d528e70262cbdb278e7ad78b50b3bc2c",
+      "bytes": 9751
+    },
+    "01_Projects/Deepfake-Detection/src/deepfake_detection/media.py": {
+      "sha256": "5f6137b5be87a7bbcf51f993425eee02f840a9fd4e5c38e6a2bcef25a55edbea",
+      "bytes": 10389
+    },
+    "01_Projects/Deepfake-Detection/src/deepfake_detection/model.py": {
+      "sha256": "25ed36fe3c260fe2ce788495ce53b65f9e90a32bd1b6d56b159e417b125fbdfb",
+      "bytes": 10744
+    },
+    "01_Projects/Deepfake-Detection/src/deepfake_detection/offline_checks.py": {
+      "sha256": "a408107e9e032db040474dcb3e874875fcbcb1758d6a27c3e4c894637a2488d1",
+      "bytes": 6631
+    },
+    "01_Projects/Deepfake-Detection/src/deepfake_detection/preparation.py": {
+      "sha256": "d6ade56cf95ba12999d8f76b487845fd5a7c9ac37d1c2a18cf244260ac4044c1",
+      "bytes": 8638
+    },
+    "01_Projects/Deepfake-Detection/src/deepfake_detection/pretrained_checks.py": {
+      "sha256": "bfe30ece0fd19c0e32b9e006e4c05cb19ba1f637c85841b1a95d7f2f0a5170cc",
+      "bytes": 7618
+    },
+    "01_Projects/Deepfake-Detection/src/deepfake_detection/profiling.py": {
+      "sha256": "b5e0a806f039cb0ec5cf4a8c1c3b2266d669def657dad13ef410516b29789d0e",
+      "bytes": 3008
+    },
+    "01_Projects/Deepfake-Detection/src/deepfake_detection/provenance.py": {
+      "sha256": "6c299253ffccc4d2cdb7f109c8857bc0d300e45d1dfe0c55fe6e2dd82c6e2b14",
+      "bytes": 1558
+    },
+    "01_Projects/Deepfake-Detection/src/deepfake_detection/quality.py": {
+      "sha256": "a7df5e478a276028e4874f63bea089b3a82f1e51500b86c659634e982274b8d0",
+      "bytes": 3190
+    },
+    "01_Projects/Deepfake-Detection/src/deepfake_detection/quality_fitting.py": {
+      "sha256": "12b467e77c895f6ef4e19d5d13844a472755187a925a07fd3ff7a58ace11e757",
+      "bytes": 14139
+    },
+    "01_Projects/Deepfake-Detection/src/deepfake_detection/reporting.py": {
+      "sha256": "3e6a0cae4f454e61e2504a105b7a0904d65690da6b22749a2561610332077072",
+      "bytes": 11227
+    },
+    "01_Projects/Deepfake-Detection/src/deepfake_detection/robustness.py": {
+      "sha256": "b3286b527857de153da358f1230004f3ba77557aaa816abef2feca0bf39579df",
+      "bytes": 7357
+    },
+    "01_Projects/Deepfake-Detection/src/deepfake_detection/shared_baselines.py": {
+      "sha256": "4ef629a242daa7bdc142b25be1c68923f7454083f826dc4fddfb6dcaec6f54c8",
+      "bytes": 2704
+    },
+    "01_Projects/Deepfake-Detection/src/deepfake_detection/study.py": {
+      "sha256": "f8b0060b063958eb40bbfba0a75e7651845723824b3e9a78ed81188b522daab5",
+      "bytes": 9616
+    },
+    "01_Projects/Deepfake-Detection/src/deepfake_detection/training.py": {
+      "sha256": "5a014ff7a2ab739ea9378fb4246b0095c3873be3a6d445926df911ca106a9113",
+      "bytes": 19309
+    },
+    "01_Projects/Deepfake-Detection/src/deepfake_detection/vad.py": {
+      "sha256": "ae679da2a61214e7be0edac85966cb99fc2ec7a93293e9ff9fe9c95e79f1d429",
+      "bytes": 3752
+    },
+    "01_Projects/Deepfake-Detection/src/deepfake_detection/validation_tools.py": {
+      "sha256": "edb7d35b83a54014ea7788ec04eeeea4d25b40c9dd693e8fbd2e1ad92f53ecd0",
+      "bytes": 2190
+    },
+    "01_Projects/Deepfake-Detection/baselines/__init__.py": {
+      "sha256": "ad57aa7e6a58888e00070a6184f18b0966b90669768216871d082e23d8739623",
+      "bytes": 57
+    },
+    "01_Projects/Deepfake-Detection/baselines/avfakenet/__init__.py": {
+      "sha256": "a3d6b6f87d0f497b42bfc0b8b09f5f1ab4e6d5b117688cfe36d9fb96e34e7359",
+      "bytes": 56
+    },
+    "01_Projects/Deepfake-Detection/baselines/avfakenet/__main__.py": {
+      "sha256": "1109286796bf32de4deda4ad3c192b6d63c7625ae35a25fdd56534a1557c6b5a",
+      "bytes": 106
+    },
+    "01_Projects/Deepfake-Detection/baselines/avfakenet/configs/avfakenet.reconstruction-v1.json": {
+      "sha256": "4d71c98dcd9f459742985ae4f63cb41cd0b62baa6a6b575a459b720faa46014a",
+      "bytes": 2313
+    },
+    "01_Projects/Deepfake-Detection/baselines/avfakenet/legacy_training.py": {
+      "sha256": "c2ed20224e149c58b8a6f1a19c53033ea4e1af20fbe3b69faa321138b8323fb6",
+      "bytes": 5632
+    },
+    "01_Projects/Deepfake-Detection/baselines/avfakenet/model.py": {
+      "sha256": "3f6d38d43425c938461b591178c21b66a7d4623496407e4b74f4493d88f37f9d",
+      "bytes": 19746
+    },
+    "01_Projects/Deepfake-Detection/baselines/avfakenet/normalized_recovery.py": {
+      "sha256": "3c288931c912f325b48b74ecbcecebd8872d37b0719f108444220f91aac0a562",
+      "bytes": 2076
+    },
+    "01_Projects/Deepfake-Detection/baselines/avfakenet/pipeline.py": {
+      "sha256": "6a4e275423fc64722e826e86a43c1682b4cc7fe9fe172d281fd723d5a19acbf1",
+      "bytes": 9409
+    },
+    "01_Projects/Deepfake-Detection/baselines/avfakenet/prepared_cache.py": {
+      "sha256": "26517b412ba51f22f04c78b54da93c83634f1687d25fb1dc222a11ee739d5755",
+      "bytes": 2976
+    },
+    "01_Projects/Deepfake-Detection/baselines/avfakenet/preprocessing.py": {
+      "sha256": "44ac60991a9e48cd586094a2d61648383da4805b6e8e0e8fcffd61d3ba44d28d",
+      "bytes": 3486
+    },
+    "01_Projects/Deepfake-Detection/baselines/avfakenet/README.md": {
+      "sha256": "8a5198d2b7c09d46319945c5dff634ca5a9966a882419925f72c8eecce505b2f",
+      "bytes": 4430
+    },
+    "01_Projects/Deepfake-Detection/baselines/avfakenet/README.th.md": {
+      "sha256": "b37e39303a3485dca383d3986582e1026d49b31693ca23e9bc56432f0e6b7552",
+      "bytes": 4834
+    },
+    "01_Projects/Deepfake-Detection/baselines/avtenet/__init__.py": {
+      "sha256": "a3d6b6f87d0f497b42bfc0b8b09f5f1ab4e6d5b117688cfe36d9fb96e34e7359",
+      "bytes": 56
+    },
+    "01_Projects/Deepfake-Detection/baselines/avtenet/__main__.py": {
+      "sha256": "cecfa7683f8452ec897efe9824030f09cadedd34d5c205411b319cf1b16c27df",
+      "bytes": 104
+    },
+    "01_Projects/Deepfake-Detection/baselines/avtenet/acquire.py": {
+      "sha256": "d59d512f746e300db3445996f0b0aef27a8e6a81619444a77c3984813cfdf651",
+      "bytes": 2377
+    },
+    "01_Projects/Deepfake-Detection/baselines/avtenet/acquire_hf_vivit.py": {
+      "sha256": "e4622da41e62452d1f2846afbc495627bf827e22acb85ea7e6c832ef537e1906",
+      "bytes": 4276
+    },
+    "01_Projects/Deepfake-Detection/baselines/avtenet/assets.py": {
+      "sha256": "6699d0d2c4b6e78c25fc73888bd4f703c0326d72d43a17f7e33ef16c3ccabc9a",
+      "bytes": 6447
+    },
+    "01_Projects/Deepfake-Detection/baselines/avtenet/configs/assets.example.json": {
+      "sha256": "eccd52857bcd1b77c0740159c36918a1c06b198fc90e7503bfd4782d59908b1a",
+      "bytes": 661
+    },
+    "01_Projects/Deepfake-Detection/baselines/avtenet/configs/avtenet.components-v1.json": {
+      "sha256": "e6867e461259ff2d2929f723097a21b342a062f4786b349d6d91098522151b35",
+      "bytes": 2136
+    },
+    "01_Projects/Deepfake-Detection/baselines/avtenet/configs/avtenet.hf-joint-adaptation-v1.json": {
+      "sha256": "7130edcabb565c262f1ad031ec6cd604b343c19b967f88180c67cdb53146cce2",
+      "bytes": 2622
+    },
+    "01_Projects/Deepfake-Detection/baselines/avtenet/configs/avtenet.training-v1.json": {
+      "sha256": "4e7036ef2f164a7b066c4606ba384d6e58319ee9beec318be28f0c891a232d5a",
+      "bytes": 426
+    },
+    "01_Projects/Deepfake-Detection/baselines/avtenet/configs/backbones.reconstruction-v1.json": {
+      "sha256": "5e7c5e908d0af4e9ff925269e2c591c0a5222c02478122cd5de470e670f3f1bc",
+      "bytes": 1243
+    },
+    "01_Projects/Deepfake-Detection/baselines/avtenet/convert_vivit.py": {
+      "sha256": "ea6ec16efbbcc0f73e7924ec4ae7b61855788ee174796ed71c891229299d29ce",
+      "bytes": 4089
+    },
+    "01_Projects/Deepfake-Detection/baselines/avtenet/feature_resume.py": {
+      "sha256": "3f7e00bcd026f0a59a5e62c232b3e02500f1c40399bf8e0b8049eb6016367728",
+      "bytes": 6830
+    },
+    "01_Projects/Deepfake-Detection/baselines/avtenet/heldout_preparation.py": {
+      "sha256": "f659630a81987a9511d0cd5dbcbc03359fefb4bbaf18be3edc637ab980c94cb2",
+      "bytes": 5047
+    },
+    "01_Projects/Deepfake-Detection/baselines/avtenet/hf_vivit.py": {
+      "sha256": "35faa9ae8d7303236fb8f91f3e25525ec78985363649ec20bf11116109b9d62a",
+      "bytes": 4821
+    },
+    "01_Projects/Deepfake-Detection/baselines/avtenet/input_cache.py": {
+      "sha256": "acc983ebb8d493d5876af6c4beb927a31e827ea4d198235d2c51b2bc4b239cb7",
+      "bytes": 4134
+    },
+    "01_Projects/Deepfake-Detection/baselines/avtenet/legacy_training.py": {
+      "sha256": "77909eb56dc30603ceabd7aaeadcb4bb49aa188250a1769583c4843267a4bba1",
+      "bytes": 8887
+    },
+    "01_Projects/Deepfake-Detection/baselines/avtenet/model.py": {
+      "sha256": "fe06372929d5edcfda0a77a51b150758199db3369f0f8e7ffb1eebc010f3212c",
+      "bytes": 12480
+    },
+    "01_Projects/Deepfake-Detection/baselines/avtenet/pipeline.py": {
+      "sha256": "b8b985ddd68c684925073fbc0d8687b66e4725364a19b1157f27c1b292bdaab0",
+      "bytes": 30671
+    },
+    "01_Projects/Deepfake-Detection/baselines/avtenet/README.md": {
+      "sha256": "03fe76abdfcfe2870f4fb95b4cc9c95941182d79088b8d7f6695749613496934",
+      "bytes": 8889
+    },
+    "01_Projects/Deepfake-Detection/baselines/avtenet/README.th.md": {
+      "sha256": "1463a6b0f5b584e3596850d2871d41fd058bd3510f25b2f42fdd55b5bf07f633",
+      "bytes": 7858
+    },
+    "01_Projects/Deepfake-Detection/baselines/avtenet/runtime/Dockerfile": {
+      "sha256": "7abe7856f215ac7df54c6f288bc5c6ecc56e2dea7378b89f70f040b362d21760",
+      "bytes": 1422
+    },
+    "01_Projects/Deepfake-Detection/baselines/avtenet/runtime/invoke-docker.ps1": {
+      "sha256": "c9463b8c3c9d8477197e1014d0fd2e5035cd62f2d9e2457ee39700b8a6fdecaa",
+      "bytes": 800
+    },
+    "01_Projects/Deepfake-Detection/baselines/avtenet/runtime/invoke-wsl.ps1": {
+      "sha256": "20cc002d10da51ff2c6e8779e9760f4daa88b0bc8f713fa7d0e4d42dfe1cbb1b",
+      "bytes": 611
+    },
+    "01_Projects/Deepfake-Detection/baselines/common/__init__.py": {
+      "sha256": "a3d6b6f87d0f497b42bfc0b8b09f5f1ab4e6d5b117688cfe36d9fb96e34e7359",
+      "bytes": 56
+    },
+    "01_Projects/Deepfake-Detection/baselines/common/cli.py": {
+      "sha256": "1b2a44783c137528d278de549aab3663527ece315c42ffa328ef860f548de88b",
+      "bytes": 7422
+    },
+    "01_Projects/Deepfake-Detection/baselines/common/decode_prefetch.py": {
+      "sha256": "0cb0744a6e0b090764a8227042d81843253dea97b20bab6772ea290fd109cb28",
+      "bytes": 1496
+    },
+    "01_Projects/Deepfake-Detection/baselines/common/detection_cache.py": {
+      "sha256": "4976175c775246ee793c2feb52baf7327fc9c61e60e8d086d42a6a6463240226",
+      "bytes": 1725
+    },
+    "01_Projects/Deepfake-Detection/baselines/common/exceptions.py": {
+      "sha256": "69abe8c526fceffc2efc9be5fb75647c15d4e690578fc1a253c3b3638b33835c",
+      "bytes": 102
+    },
+    "01_Projects/Deepfake-Detection/baselines/common/io.py": {
+      "sha256": "8393df70e9c67546a4703e41f49913d83c39deef203777e29f872d1e2646094b",
+      "bytes": 2477
+    },
+    "01_Projects/Deepfake-Detection/baselines/common/media.py": {
+      "sha256": "a0f4f4d26227c0786c108c3a1a38a321ea6adc55773c49580b7efdad889095db",
+      "bytes": 3940
+    },
+    "01_Projects/Deepfake-Detection/baselines/common/metrics.py": {
+      "sha256": "1fe63a3292842450ae7b6a989a2f11919841278f4b574efe31c01656cbf7435c",
+      "bytes": 3617
+    },
+    "01_Projects/Deepfake-Detection/baselines/common/population.py": {
+      "sha256": "390140bc7b4a69d658a05fd0998feffdcd762387accdba147adbeb3c33f818ee",
+      "bytes": 5944
+    },
+    "01_Projects/Deepfake-Detection/baselines/common/readiness.py": {
+      "sha256": "3d66fa34f5521ed53f24141238a479aae44ebb00c606c099514dc8fe93707328",
+      "bytes": 1170
+    },
+    "01_Projects/Deepfake-Detection/baselines/common/stream_identity.py": {
+      "sha256": "4c47bcef9f39340688250da6ef244d0880b8f874b55882b82b30d8d33911106d",
+      "bytes": 2050
+    },
+    "01_Projects/Deepfake-Detection/baselines/common/subset.py": {
+      "sha256": "54a32b135f79c17dfbe4f72f1c14a7b7ef482996f6f71a94cfeee4140816e444",
+      "bytes": 5509
+    },
+    "01_Projects/Deepfake-Detection/baselines/common/threshold_analysis.py": {
+      "sha256": "36a3cbb07999b06a3375adab07adb69625221a22a0d9b73d0d17c94d66921a02",
+      "bytes": 2785
+    },
+    "01_Projects/Deepfake-Detection/baselines/common/training.py": {
+      "sha256": "8e129c88540a6898ca513c9531db2f2f3aca04894a9d0380b693f5850d4664a3",
+      "bytes": 16692
+    },
+    "01_Projects/Deepfake-Detection/baselines/common/video_reader.py": {
+      "sha256": "3cf515e79579cdad9f068a2911fbd390cde8017f9e79fb029e0bbbc8be66d1ab",
+      "bytes": 4701
+    },
+    "01_Projects/Deepfake-Detection/baselines/README.md": {
+      "sha256": "a768a1aa0addd3d7c2922ba02c59d650950484422005223db91f6f7726cde718",
+      "bytes": 6726
+    },
+    "01_Projects/Deepfake-Detection/baselines/README.th.md": {
+      "sha256": "0afa2899f80b6a945d322599f2ed53263d2988c10d1554819df43799235dae66",
+      "bytes": 7820
+    },
+    "01_Projects/Deepfake-Detection/baselines/requirements.txt": {
+      "sha256": "9591cb6c12d6b2c80e645be54b02ed7efe9b1e6e45916c15d64e6d41bfdbcf63",
+      "bytes": 357
+    },
+    "01_Projects/Deepfake-Detection/scripts/acquire_pretrained.py": {
+      "sha256": "67ffd47af08d67fea3fbaf79d8e2a84f43f275e692b96111b33c067dba8c5e8e",
+      "bytes": 1749
+    },
+    "01_Projects/Deepfake-Detection/scripts/analyze_avtenet_results.py": {
+      "sha256": "e8d534c8e744e5a08fb421f593787e072a7fcfb77f8aaeab988fbc45a6487e5c",
+      "bytes": 16141
+    },
+    "01_Projects/Deepfake-Detection/scripts/analyze_remaining_offline.py": {
+      "sha256": "25019a8ba1d9d9261a9bd29868e4943c9ee0e0639aa89bf76718ae4d0dad3ad7",
+      "bytes": 6950
+    },
+    "01_Projects/Deepfake-Detection/scripts/analyze_three_without_training.py": {
+      "sha256": "c013d46182dcc408f0b7cc6ae2000b406b5719c1738f533f417f1cc4377e0252",
+      "bytes": 9704
+    },
+    "01_Projects/Deepfake-Detection/scripts/audit_avfakenet_return.py": {
+      "sha256": "f3abbc5c3d4fe36c7b009d84213b3f06ff0d036ab521fc4159146646d24198e6",
+      "bytes": 16594
+    },
+    "01_Projects/Deepfake-Detection/scripts/auto_after_avhubert.py": {
+      "sha256": "4c3a1a6d2aca500a69995216d6a883594e640f8200cd29a7f5dbcd76ab33ad32",
+      "bytes": 18590
+    },
+    "01_Projects/Deepfake-Detection/scripts/avfakenet_progress_io.py": {
+      "sha256": "1b7f952c91c5c1593ebbff86ee05b2d547f77842eeca7fdf7b3eb25279f6becf",
+      "bytes": 2197
+    },
+    "01_Projects/Deepfake-Detection/scripts/avfakenet_training_fastpath.py": {
+      "sha256": "5b3186bd46fe59bcbe74db248ff1037a701f8e86f4ae27143854a5e35150cc80",
+      "bytes": 5273
+    },
+    "01_Projects/Deepfake-Detection/scripts/avhubert_worker.py": {
+      "sha256": "7f8e5bc6ccb6689b91660ebed9fb494fe732db9d113da5b1463212b6eebaa3cb",
+      "bytes": 5993
+    },
+    "01_Projects/Deepfake-Detection/scripts/benchmark_avfakenet_fastpath.py": {
+      "sha256": "3a55a46bcea6aaf0ceb899b788f7b1e0fb8c377ef7fca29bdadafae4712d5bf1",
+      "bytes": 5218
+    },
+    "01_Projects/Deepfake-Detection/scripts/benchmark_avfakenet_inference_batch.py": {
+      "sha256": "99b19919eefc90a421e401b6666973f830915aa6fd4bd09dc10955335ad8872f",
+      "bytes": 4907
+    },
+    "01_Projects/Deepfake-Detection/scripts/benchmark_avfakenet_prefetch.py": {
+      "sha256": "30092ba325ba565a40035e9b9d3aeefe0517589c06b8c5f3e1944f29f4ca8375",
+      "bytes": 5371
+    },
+    "01_Projects/Deepfake-Detection/scripts/benchmark_avfakenet_training_io.py": {
+      "sha256": "90dfaf199acbb7e0babf23da7f6f3f9f6268e64035d48217be29e7e97862164c",
+      "bytes": 4752
+    },
+    "01_Projects/Deepfake-Detection/scripts/benchmark_heldout_preparation.py": {
+      "sha256": "e09c908853e210bb57aed6332d919b6641bd930344579d944fe941284fb411c5",
+      "bytes": 4393
+    },
+    "01_Projects/Deepfake-Detection/scripts/benchmark_visual_threads.py": {
+      "sha256": "c161f2464694a426dc5948352088d2336ee05ad2f8cde2bb228856f1abb649a9",
+      "bytes": 3881
+    },
+    "01_Projects/Deepfake-Detection/scripts/bootstrap_avhubert.sh": {
+      "sha256": "f30c48dd1ffbbcfb21defc075c4098bfe2b9c9f8fc13433ca0c911a003f8cd9b",
+      "bytes": 1249
+    },
+    "01_Projects/Deepfake-Detection/scripts/build_deadline_report.py": {
+      "sha256": "5d9097b938b7cfb27ae7823971192d4ababfd2197bc0ef50682945ec8c4cfd1a",
+      "bytes": 16082
+    },
+    "01_Projects/Deepfake-Detection/scripts/check_avhubert_environment.py": {
+      "sha256": "7cb04f23744f97b6b0892b52b9f3b75a20e85bf85ee8d32cb712152bf49b2c61",
+      "bytes": 3798
+    },
+    "01_Projects/Deepfake-Detection/scripts/check_fk_runtime.py": {
+      "sha256": "00773a625ac5df580c932f787f27cda17628cf5efcfc7b4870eb46e229c4bf93",
+      "bytes": 1671
+    },
+    "01_Projects/Deepfake-Detection/scripts/check_worker_cuda.py": {
+      "sha256": "5c4d60147bfcd1f3f429637d6c424fcc43f5537977fcb0e6fdaddefc0f965e50",
+      "bytes": 739
+    },
+    "01_Projects/Deepfake-Detection/scripts/compare_three_heldout.py": {
+      "sha256": "154623b2bbb328f228313cc634cb8499ff7e432fa5d6886b44f5c5a763f27a46",
+      "bytes": 8567
+    },
+    "01_Projects/Deepfake-Detection/scripts/compare_three_models.py": {
+      "sha256": "44d16a33642b2b6b0e9500465a368a67fa04d1cd43cc20b43f4f3a731e51f46b",
+      "bytes": 2680
+    },
+    "01_Projects/Deepfake-Detection/scripts/configure_worker_b.py": {
+      "sha256": "6eea56244c5cb1a93e83b4297a1d3f7cd7920cb02a33d13235aa4d4e4d3a47f7",
+      "bytes": 1921
+    },
+    "01_Projects/Deepfake-Detection/scripts/configure_worker_c.py": {
+      "sha256": "ca3c54ea944224ab0d7d91f3197ec7a983a2af355f4ee03e9b606e5b1d77ac8f",
+      "bytes": 3296
+    },
+    "01_Projects/Deepfake-Detection/scripts/continue_remaining_after_precision_fix.py": {
+      "sha256": "2d91b7bb253d1b4a8c384c2fbb8a621c11a096e18a52d8cf00bf03a34291b1ff",
+      "bytes": 5060
+    },
+    "01_Projects/Deepfake-Detection/scripts/continue_remaining_avtenet.py": {
+      "sha256": "ca217998a7abb0bbc5199dd07fce2df17d18fc89d3388816c3d4489a62745d2a",
+      "bytes": 4128
+    },
+    "01_Projects/Deepfake-Detection/scripts/diagnose_avfakenet_head_scaling.py": {
+      "sha256": "f4c0a9eba3edaada4224a7ddc619103f6c3299b19136ec87256951b5bf7fc49c",
+      "bytes": 19170
+    },
+    "01_Projects/Deepfake-Detection/scripts/diagnose_fk_robustness_exit.py": {
+      "sha256": "a47ea57df995d603d3ec46057fa0aa3918545bf50be46c9353c2a096ee535579",
+      "bytes": 2749
+    },
+    "01_Projects/Deepfake-Detection/scripts/diagnose_remaining_fk_parity.py": {
+      "sha256": "0049ca746fc3a33f6ee09951230ea1225f727ef21120e0fbb6db439bcb72de99",
+      "bytes": 5116
+    },
+    "01_Projects/Deepfake-Detection/scripts/evaluate_avfakenet_locked_heldout.py": {
+      "sha256": "adfa65d3492df2efe3f8fae9597cdca3a86e9d43679f52518f53f247bb92c1d0",
+      "bytes": 16415
+    },
+    "01_Projects/Deepfake-Detection/scripts/evaluate_completed_ablations.py": {
+      "sha256": "66a14392fb9599f32540ac8137eb77d21110fb96ef9b74663c96390fe47d9a6d",
+      "bytes": 8703
+    },
+    "01_Projects/Deepfake-Detection/scripts/export_second_machine.py": {
+      "sha256": "b01a633bb096f25b3d250cd8b544e35fd955afb9be3572966fc4ba39d74c8d88",
+      "bytes": 8189
+    },
+    "01_Projects/Deepfake-Detection/scripts/import_avfakenet_machine_b_cache.py": {
+      "sha256": "647d2e9f6cdf63204a287afba003fccf0e3a75c59257952fd2976ae932d8e00a",
+      "bytes": 8878
+    },
+    "01_Projects/Deepfake-Detection/scripts/machine_a.ps1": {
+      "sha256": "d4e0228cc9657a88210a66e653b61287c41e774a9b654dd143f02621735c7c28",
+      "bytes": 2016
+    },
+    "01_Projects/Deepfake-Detection/scripts/machine_b.ps1": {
+      "sha256": "1fe24345f2c0c6ced10c833d6e6b283386959fe9d15cd712d05910cb031cd9f2",
+      "bytes": 1479
+    },
+    "01_Projects/Deepfake-Detection/scripts/machine_c.ps1": {
+      "sha256": "26b695486727fe13e9cfb32342744be7c2434646a22846f6842eb858c3e0bf62",
+      "bytes": 2152
+    },
+    "01_Projects/Deepfake-Detection/scripts/pack_machine_b_cache.py": {
+      "sha256": "e64741c12ad20dfa29a889638c06c7e9de180367bfdcf777a7a940da334564e3",
+      "bytes": 6727
+    },
+    "01_Projects/Deepfake-Detection/scripts/parallel_avfakenet_prepare.py": {
+      "sha256": "2c4c425d1b2a30748332306c48da6f34b5ff8ebc21ad751d580ab186e83afbb3",
+      "bytes": 15485
+    },
+    "01_Projects/Deepfake-Detection/scripts/prepare_avhubert_input.py": {
+      "sha256": "0d9db2f5caed003776d3e497952db0004770c991b4680a4196d0162c614fde9d",
+      "bytes": 2552
+    },
+    "01_Projects/Deepfake-Detection/scripts/prepare_heldout.py": {
+      "sha256": "31ea02b9b6ddad80085bd94fa14443a00bf31298c9435bb408b6ded8ded4e90f",
+      "bytes": 11115
+    },
+    "01_Projects/Deepfake-Detection/scripts/prepare_remaining_derivatives.py": {
+      "sha256": "f9dc5bf2800f6e65f08eefa1669ed568d8296fa076e02ff9dc1496f0d1acb484",
+      "bytes": 8561
+    },
+    "01_Projects/Deepfake-Detection/scripts/prepare_remaining_study.py": {
+      "sha256": "8d767fa2ee15dac77a6f1595f82fddce387eb6fbae03f4c6908986f1654fad92",
+      "bytes": 11354
+    },
+    "01_Projects/Deepfake-Detection/scripts/prepare_without_dataset.sh": {
+      "sha256": "284c1980947b02c27b665715a05231012eaa79b42374ddd4524405aa90a79230",
+      "bytes": 384
+    },
+    "01_Projects/Deepfake-Detection/scripts/prewarm_heldout_audio.py": {
+      "sha256": "a57593fe75d05a2275422ebefd6aa81a9364258591a75b11200d688f02561189",
+      "bytes": 4440
+    },
+    "01_Projects/Deepfake-Detection/scripts/probe_avfakenet_checkpoints.py": {
+      "sha256": "915fd7bdb913cc413a20c76010d1cbd4ca5802039eb20230014ccb9d79f4eea3",
+      "bytes": 10456
+    },
+    "01_Projects/Deepfake-Detection/scripts/probe_avfakenet_real_faces.py": {
+      "sha256": "a84332a182aaeffbe721f65eca60674b83321d8eb5002dc4ccd530f3c23200c1",
+      "bytes": 5490
+    },
+    "01_Projects/Deepfake-Detection/scripts/recover_avfakenet_normalized_tiny.py": {
+      "sha256": "2e3786bcd9e6ec9baf721e166b6b75468a38b6e3d6283b9b81d7d39229ca0551",
+      "bytes": 18068
+    },
+    "01_Projects/Deepfake-Detection/scripts/recover_remaining_after_reboot.ps1": {
+      "sha256": "9048cebe9aae87b4ba3f315103f46c24b4b34fa331c226b4ba857742451ce6cd",
+      "bytes": 1579
+    },
+    "01_Projects/Deepfake-Detection/scripts/recover_remaining_after_reboot.py": {
+      "sha256": "f0c85df13ea01c17ea2bea54f5585e69046637d22493888def6404813a3a4ec5",
+      "bytes": 2178
+    },
+    "01_Projects/Deepfake-Detection/scripts/remaining_avfakenet.py": {
+      "sha256": "0dd6a5d341e77da5b69f6221b1f6cac2a98943ee770fb0f415e326c1eef86bdc",
+      "bytes": 8156
+    },
+    "01_Projects/Deepfake-Detection/scripts/repair_heldout_cache_read.ps1": {
+      "sha256": "38bf0a655c62bb3a7a71b59b98e9e60877962e224f33e9f0f3ad5a89abb381bb",
+      "bytes": 1985
+    },
+    "01_Projects/Deepfake-Detection/scripts/repair_heldout_cache_read.py": {
+      "sha256": "3a1b4b3b96a0efdeee1c7acb72b04bd98cadce7daccee0426dc4e3cfa0521562",
+      "bytes": 3759
+    },
+    "01_Projects/Deepfake-Detection/scripts/resume_avfakenet_prefetched.py": {
+      "sha256": "c6684b8d397eb9932114d36e2bf5bbd304e6b05665911568185c769b75efa88e",
+      "bytes": 3219
+    },
+    "01_Projects/Deepfake-Detection/scripts/resume_remaining_checked.py": {
+      "sha256": "8278d3168ba701d30be8a15a17db98c995b858c5a0e2af68addc869c64d7dddc",
+      "bytes": 3346
+    },
+    "01_Projects/Deepfake-Detection/scripts/review_avfakenet_audio_intervals.py": {
+      "sha256": "165fa4534f21f94150a17ae5dc9230cff6bd9358df8d3bd86e0d37c5e8c2b8f6",
+      "bytes": 11218
+    },
+    "01_Projects/Deepfake-Detection/scripts/run_avfakenet_deadline.py": {
+      "sha256": "4b671db26f6797104339aefbe81023948e93dac16e017cd05954d0affe6503d2",
+      "bytes": 2630
+    },
+    "01_Projects/Deepfake-Detection/scripts/run_avfakenet_normalized_pilot.py": {
+      "sha256": "2dc5aee6b8e7ed5c491080abe541d40f149596338e09be89170ed4acec069637",
+      "bytes": 23959
+    },
+    "01_Projects/Deepfake-Detection/scripts/run_avfakenet_one_epoch.py": {
+      "sha256": "1723600537b9f14ba506d04f06b3717a4dcb3eb12afb09e3d39b85ad035e0e62",
+      "bytes": 24801
+    },
+    "01_Projects/Deepfake-Detection/scripts/run_avfakenet_resilient.py": {
+      "sha256": "a59e117db98acd28e08c08701d3bf7401f809300282d10d06b95da887a6bb89d",
+      "bytes": 3192
+    },
+    "01_Projects/Deepfake-Detection/scripts/run_avtenet_frozen_test.py": {
+      "sha256": "dee2c9c064ee0a93707bd178f1167c58aa750ad858a5c676b6959cbf27ed01c1",
+      "bytes": 12035
+    },
+    "01_Projects/Deepfake-Detection/scripts/run_avtenet_subset.py": {
+      "sha256": "7e326ac6549a70a911fc20d1fb74571b7a5b27f7a174a84a322e182d94255314",
+      "bytes": 15320
+    },
+    "01_Projects/Deepfake-Detection/scripts/run_fk_heldout.py": {
+      "sha256": "257adbdb47629cad1456501e823991ba7f12809efc185c28a6230ae78eb1d65d",
+      "bytes": 10663
+    },
+    "01_Projects/Deepfake-Detection/scripts/run_machine_a.py": {
+      "sha256": "4e87dfff2f60ef2e424fa61b6bfe058e3e57e54f0a342039f22aaeadeb8f5ab0",
+      "bytes": 1663
+    },
+    "01_Projects/Deepfake-Detection/scripts/run_prepared_ablation.py": {
+      "sha256": "0e68c31ac01611843e68d3e5936c6f315a443b6c5564bbd26563b424b2a4024a",
+      "bytes": 4918
+    },
+    "01_Projects/Deepfake-Detection/scripts/run_remaining_avtenet.py": {
+      "sha256": "fd69f1918582899edab21bbe19d1f6ec2b410fc9886886666899d50269afcdbb",
+      "bytes": 14763
+    },
+    "01_Projects/Deepfake-Detection/scripts/run_remaining_queue.py": {
+      "sha256": "876210cce67b3ea37838ff96ef6964705857a1ab3330e50cccf235d52ef9de00",
+      "bytes": 6074
+    },
+    "01_Projects/Deepfake-Detection/scripts/run_remaining_supplement.py": {
+      "sha256": "0fc779c6c2d28f7556e633e79495130c0950b97c25f802613f0483030762b5fe",
+      "bytes": 27104
+    },
+    "01_Projects/Deepfake-Detection/scripts/run_shared_controls.py": {
+      "sha256": "486d9d59a364b25975a4e6669abf246d5ca89deb698bd42dbcecd1f652a76ad5",
+      "bytes": 19239
+    },
+    "01_Projects/Deepfake-Detection/scripts/run_two_day.py": {
+      "sha256": "c27aedd8e54fe87327c4c5d8407843d1798c1555ddbc819388444e8be6ab4c63",
+      "bytes": 12685
+    },
+    "01_Projects/Deepfake-Detection/scripts/scale_avfakenet_prepare.py": {
+      "sha256": "1ff3293631bf387c3f17c99c56bed8f55d2007d46ea42f502ff36f068d42024d",
+      "bytes": 13415
+    },
+    "01_Projects/Deepfake-Detection/scripts/setup_avhubert.sh": {
+      "sha256": "20428b034cae50f6498c8eb434734f1dc54c7f1d7d3c30ea1c2b82ec53068fdf",
+      "bytes": 4573
+    },
+    "01_Projects/Deepfake-Detection/scripts/setup_environment.sh": {
+      "sha256": "0fdc7a46bf9d43f213635b1e0d7fffe72ca598bca16933d83ecbcfac906137a3",
+      "bytes": 1861
+    },
+    "01_Projects/Deepfake-Detection/scripts/start_avfakenet_deadline.ps1": {
+      "sha256": "2d8cc8655a3aa19a95ac2ac1aa01d6923ae4cc8aeb02a74d288511a9306d94ab",
+      "bytes": 1541
+    },
+    "01_Projects/Deepfake-Detection/scripts/start_avfakenet_machine_b_cache.ps1": {
+      "sha256": "ccf821e4a0af715b182dc2427cf15496cc79859a2d336120d3fa4c78eb43c3f9",
+      "bytes": 1724
+    },
+    "01_Projects/Deepfake-Detection/scripts/start_avfakenet_normalized_pilot.ps1": {
+      "sha256": "fddc9760af7a879fda98347a8e271cc639830283ffe898477b02b8f377bc4877",
+      "bytes": 2093
+    },
+    "01_Projects/Deepfake-Detection/scripts/start_avfakenet_parallel_prepare.ps1": {
+      "sha256": "d80e54a999a9e5eb638db98314df9a4f2a6106fa526cf40a2eda14609799a173",
+      "bytes": 1889
+    },
+    "01_Projects/Deepfake-Detection/scripts/start_avfakenet_scaled_prepare.ps1": {
+      "sha256": "62588cd3b446b39e498cc0e2cb0cd394df6befd9d6ed7dc971f6f326a790d308",
+      "bytes": 2089
+    },
+    "01_Projects/Deepfake-Detection/scripts/summarize_completed_supplement.py": {
+      "sha256": "27853bfc5dc3e50e56c7133f297382702af0d5e4c651755d4dacfaaddc06f10e",
+      "bytes": 7724
+    },
+    "01_Projects/Deepfake-Detection/scripts/supervise_remaining.py": {
+      "sha256": "0cd772c65c82eb7098d0b4d024faad1b96c651d6f6259fdde9a969e16e52f424",
+      "bytes": 4887
+    },
+    "01_Projects/Deepfake-Detection/scripts/transfer_worker_results.py": {
+      "sha256": "1bf23e5876550ee3d8b9d0571854ef3eb205420bfb2645e2033b5c707369a9c7",
+      "bytes": 7270
+    },
+    "01_Projects/Deepfake-Detection/scripts/tune_avfakenet_heldout.py": {
+      "sha256": "d452a83c389de09ffa40a7b507b97445caec322bcf80dc81773217e1d89d8ba5",
+      "bytes": 11820
+    },
+    "01_Projects/Deepfake-Detection/scripts/verify_second_machine.py": {
+      "sha256": "2dac2ea7955c37b462cf3cd3b291db0479e43e6c42239991ba644896b270a9e1",
+      "bytes": 2052
+    },
+    "01_Projects/Deepfake-Detection/scripts/watch_avfakenet_pilot.ps1": {
+      "sha256": "461677ab21078c390fa666dc03141c35ac17a14ffc01eacc9f87bad8520f7fc1",
+      "bytes": 2947
+    },
+    "01_Projects/Deepfake-Detection/scripts/watch_avfakenet_recovery.ps1": {
+      "sha256": "5d06f07d7c5458949a1e82938e58175fb1bb2c9b44bcde2334aa83798a611527",
+      "bytes": 1798
+    },
+    "01_Projects/Deepfake-Detection/scripts/watch_remaining_all.py": {
+      "sha256": "cfd06bbce5353c100b4bfc8d1febb633cb3784eaff73785f34662f049f5cafd6",
+      "bytes": 6353
+    },
+    "01_Projects/Deepfake-Detection/scripts/watch_remaining_experiments.ps1": {
+      "sha256": "7d004e959368b5106dd01ba36bfb62c4ada4c1d4d5770e2a7bda258845ca3b7a",
+      "bytes": 2543
+    },
+    "01_Projects/Deepfake-Detection/scripts/worker_environment.ps1": {
+      "sha256": "da267f757c2db307bfc605b807a460d5fbd8a7555661965b70484aef8a76278b",
+      "bytes": 1254
+    },
+    "01_Projects/Deepfake-Detection/tests/test_ablation_evaluation_context.py": {
+      "sha256": "d4288373b36469e8236219599548b9ed7e1fff0275821e97a4367f5786caef64",
+      "bytes": 2440
+    },
+    "01_Projects/Deepfake-Detection/tests/test_auto_continuation.py": {
+      "sha256": "e3372bac3fceb474f61c50abc5d55541c71437742a40123ad4c577663cbb2adb",
+      "bytes": 7201
+    },
+    "01_Projects/Deepfake-Detection/tests/test_avdeepfake1m.py": {
+      "sha256": "e07d3a4ac5863e640f1c29e5d4b4830d275d39b3a59761c1ce96c850a9f2ce0f",
+      "bytes": 13465
+    },
+    "01_Projects/Deepfake-Detection/tests/test_avfakenet.py": {
+      "sha256": "d7ac2fef0bf0ed706f8ea7c2ed6a279775c5dfb39d582f7e5fdbf5098fc46b75",
+      "bytes": 9888
+    },
+    "01_Projects/Deepfake-Detection/tests/test_avfakenet_audio_interval_review.py": {
+      "sha256": "01382246d9325b7036bc88ea1b3cd5b63bb2cd22f4a4c0827171c15c8f58b9f3",
+      "bytes": 2036
+    },
+    "01_Projects/Deepfake-Detection/tests/test_avfakenet_cache_import.py": {
+      "sha256": "f88bc656b0d36e6b75b19ddf36cfe51b879ef30f8f5d35484e27f9208f8d2afd",
+      "bytes": 1890
+    },
+    "01_Projects/Deepfake-Detection/tests/test_avfakenet_checkpoint_probes.py": {
+      "sha256": "59834c725c9a26e262685fbebcb10f533ccb857e88d1ccadeb8522fbd9b40edc",
+      "bytes": 2307
+    },
+    "01_Projects/Deepfake-Detection/tests/test_avfakenet_deadline_dispatch.py": {
+      "sha256": "f9099ce11d47ebf62001e87649f0123c81b50197e1cd8d542fb687eeaa842765",
+      "bytes": 2867
+    },
+    "01_Projects/Deepfake-Detection/tests/test_avfakenet_head_scaling.py": {
+      "sha256": "95899fe4784a3b2dfc5214045ba4d1a717ba83bc6f26a1d71a9ff818d357ad62",
+      "bytes": 2168
+    },
+    "01_Projects/Deepfake-Detection/tests/test_avfakenet_heldout_execution.py": {
+      "sha256": "22ef8b11ff1906d92d706e3e14033ef27206545f7a7e59b0b908c85d6cd712fa",
+      "bytes": 2881
+    },
+    "01_Projects/Deepfake-Detection/tests/test_avfakenet_normalized_pilot.py": {
+      "sha256": "2f75e3c9ca376b2139e0aa0932bfcb965474e4b6332144ffd2648516a3ebc79b",
+      "bytes": 4595
+    },
+    "01_Projects/Deepfake-Detection/tests/test_avfakenet_normalized_recovery.py": {
+      "sha256": "2dad1dac90b5c24be15aa4038ed4e69bffa0b31dc3842d62d6693019f8b49fe5",
+      "bytes": 2005
+    },
+    "01_Projects/Deepfake-Detection/tests/test_avfakenet_parallel_prepare.py": {
+      "sha256": "690ec102216d315461786f964a2a44f51c30876b4176d8c44d0400ff4a6164d5",
+      "bytes": 4332
+    },
+    "01_Projects/Deepfake-Detection/tests/test_avfakenet_progress_io.py": {
+      "sha256": "5af472b242f7ea199d0506032fb00aefe90b854873f1a3d2703265654d12f41e",
+      "bytes": 4538
+    },
+    "01_Projects/Deepfake-Detection/tests/test_avfakenet_return_audit.py": {
+      "sha256": "4bdb3165cc3b30dc30cbe5d69955e121e59ce5d2809b551fceda3613f599b387",
+      "bytes": 3550
+    },
+    "01_Projects/Deepfake-Detection/tests/test_avfakenet_training_fastpath.py": {
+      "sha256": "60b89b8d7a00afad73afaa078a0c577fdaf05b24ebdd5a4515c0b78f9446314c",
+      "bytes": 3551
+    },
+    "01_Projects/Deepfake-Detection/tests/test_avhubert_processed_prefetch.py": {
+      "sha256": "2e03567f4194fc7e12325d4fa296a3df261dd35e955c9d78cbc8801a6da1914e",
+      "bytes": 3388
+    },
+    "01_Projects/Deepfake-Detection/tests/test_avtenet.py": {
+      "sha256": "c1c4d2cde63fc161538fbcbc6d8d7b44e1217608d5887c32f66d53151c93ed96",
+      "bytes": 6771
+    },
+    "01_Projects/Deepfake-Detection/tests/test_avtenet_adaptation.py": {
+      "sha256": "064d7959fcdaf7b11469d09b6040a795651b3f8d488d56bcf5394ca859bf3178",
+      "bytes": 2389
+    },
+    "01_Projects/Deepfake-Detection/tests/test_avtenet_io_optimization.py": {
+      "sha256": "2d66e4cfba7a07d7452d269876228e86bb2a09ee1c9e9c896092f8c461d0feac",
+      "bytes": 12483
+    },
+    "01_Projects/Deepfake-Detection/tests/test_avtenet_preparation_speed.py": {
+      "sha256": "9b885654afcd2049d0b7fe63cefb9a6f39b44d9af2a17574a55fd11e2755e0f2",
+      "bytes": 6147
+    },
+    "01_Projects/Deepfake-Detection/tests/test_comparator_workflows.py": {
+      "sha256": "0b4da55c19fe7aedc82d423bc532bc8af7171652f010e5ed55c80156dc40741a",
+      "bytes": 12637
+    },
+    "01_Projects/Deepfake-Detection/tests/test_decode_prefetch.py": {
+      "sha256": "0bef77edd35ea33c9112ab75111a97b0c587960beac40da69156f40f7d78c295",
+      "bytes": 7936
+    },
+    "01_Projects/Deepfake-Detection/tests/test_experiment_tools.py": {
+      "sha256": "a005ba9afe32edd69394996d772694d964fef84a3b9d7d69fc4145085e262a08",
+      "bytes": 17289
+    },
+    "01_Projects/Deepfake-Detection/tests/test_feature_cache_resume.py": {
+      "sha256": "e83eb5681e2a32f23b0219eee041e7a7b311b2e729cf06ac694db6b37f6a7d7e",
+      "bytes": 9365
+    },
+    "01_Projects/Deepfake-Detection/tests/test_fk_cache_resume.py": {
+      "sha256": "9c8ccb4ffe219123a4f2bb21267b1d331a7b3c5009f4c66833a27133c8a9c6da",
+      "bytes": 10247
+    },
+    "01_Projects/Deepfake-Detection/tests/test_foundations.py": {
+      "sha256": "ecbe4155c09e060c6af798209ff0183e37ca14bbc19582673940d6efea97d42a",
+      "bytes": 13281
+    },
+    "01_Projects/Deepfake-Detection/tests/test_heldout.py": {
+      "sha256": "e92547227653a76480e9e52d9f525fcf626193183460ce19ac8fa75a16304a7b",
+      "bytes": 7371
+    },
+    "01_Projects/Deepfake-Detection/tests/test_heldout_preparation_speed.py": {
+      "sha256": "3c26e07cbf4d7977710b214171a6f5763998087a7f3ce1ff745b95dca870a9ca",
+      "bytes": 5684
+    },
+    "01_Projects/Deepfake-Detection/tests/test_infrastructure.py": {
+      "sha256": "2b2251a2a77c9a4140d4a4e56ad305d8a0b9ab2b2196bc841ba8dec51b8fba9a",
+      "bytes": 24028
+    },
+    "01_Projects/Deepfake-Detection/tests/test_lavdf.py": {
+      "sha256": "d5e2f5b7fa6687d63edc505674cf97eee38cacf78dfbb5446430646890645987",
+      "bytes": 3974
+    },
+    "01_Projects/Deepfake-Detection/tests/test_model.py": {
+      "sha256": "e716fc54406bdefddf1deea1f13b2f6e66d5fa73818b3e3355bba0a2c0855d7b",
+      "bytes": 5872
+    },
+    "01_Projects/Deepfake-Detection/tests/test_paper_alignment.py": {
+      "sha256": "8333fe4ae20dda1905e35e78da453195ade80d29f9ec55b7db604f84362bcf69",
+      "bytes": 21271
+    },
+    "01_Projects/Deepfake-Detection/tests/test_quality_resume.py": {
+      "sha256": "8e673b1658eb237138c7ec47e652de5402a67d2e9d754d923888d4781e99ac4d",
+      "bytes": 6961
+    },
+    "01_Projects/Deepfake-Detection/tests/test_remaining_clean_reuse.py": {
+      "sha256": "8b5a89d029406359b4b7b7d9c582850370d39911ac0d8df34fdf475a3b0b43da",
+      "bytes": 2832
+    },
+    "01_Projects/Deepfake-Detection/tests/test_remaining_execution.py": {
+      "sha256": "d48e307c9598a66457828a6615ef91183fc1008d9d37a6dd5a4b69cef8866aab",
+      "bytes": 2842
+    },
+    "01_Projects/Deepfake-Detection/tests/test_remaining_modality_inputs.py": {
+      "sha256": "8f1b4557273f5ba7ba51086435823de121eaa92d700a300c8a3bf8bca601fb1f",
+      "bytes": 3133
+    },
+    "01_Projects/Deepfake-Detection/tests/test_remaining_study_preparation.py": {
+      "sha256": "9096202e427950a7f578ddc33e9f122bcf52bcf9cd7cd9882c36a1c0425aec4b",
+      "bytes": 2489
+    },
+    "01_Projects/Deepfake-Detection/tests/test_remaining_supervisor.py": {
+      "sha256": "06d5555be47e6690773bba766fac6bc9e38fa965ce5c169eb1742379c6517bcf",
+      "bytes": 1495
+    },
+    "01_Projects/Deepfake-Detection/tests/test_shared_controls_runner.py": {
+      "sha256": "38cdf81fa469dfe9a279115fd2e79769f55572a66139c210d525863f95cd2aab",
+      "bytes": 8176
+    },
+    "01_Projects/Deepfake-Detection/tests/test_stream_identity.py": {
+      "sha256": "1e6b2fde7832e6ae7e0dc40e9ddaa6a4594a1538ae27029cde6b5cbc0849b2b8",
+      "bytes": 2301
+    },
+    "01_Projects/Deepfake-Detection/tests/test_three_heldout_comparison.py": {
+      "sha256": "8a69ca7edba03640a01ba1a782b1a90d3380c45192fccecd7c456ac2d927098b",
+      "bytes": 2073
+    },
+    "01_Projects/Deepfake-Detection/tests/test_three_machine.py": {
+      "sha256": "974e92a2d65e776e10ffb051f24a5a91fd9c8564ca2693bac63ebc50d1113bb0",
+      "bytes": 12628
+    },
+    "01_Projects/Deepfake-Detection/tests/test_threshold_analysis.py": {
+      "sha256": "3b369a6f2c728b25506e4bf72ce97c4da12018abf4eb756d1575f582ee5d5094",
+      "bytes": 2041
+    },
+    "01_Projects/Deepfake-Detection/tests/test_training_mid_epoch.py": {
+      "sha256": "b9451897aa14a8eedd464ecfe03bd1a1e3eab3ccf29bb5cc91ca7976eb7a69a4",
+      "bytes": 7138
+    },
+    "01_Projects/Deepfake-Detection/tests/test_two_day.py": {
+      "sha256": "970fa78d4c4b0fd359963e13e72963f03be8135b31befe2ea05087054081e7c5",
+      "bytes": 4568
+    },
+    "01_Projects/Deepfake-Detection/tests/test_two_machine.py": {
+      "sha256": "2f92bbcb9ccc190ef667558d0822ef20f45eb0fcd96ee058f5e517d7cf77c1fd",
+      "bytes": 6275
+    },
+    "01_Projects/Deepfake-Detection/configs/assets.example.json": {
+      "sha256": "3877af198a9742c683182904516aaa65a590ea9575320bea3f6cd8e295840a2f",
+      "bytes": 527
+    },
+    "01_Projects/Deepfake-Detection/configs/avfakenet.audit.json": {
+      "sha256": "424460a1b16f3d9334fcdd32e79a457f3b5c5ce8d9b8690dfeb3f15c959a435b",
+      "bytes": 1830
+    },
+    "01_Projects/Deepfake-Detection/configs/avfakenet.reconstruction-v1.json": {
+      "sha256": "4d71c98dcd9f459742985ae4f63cb41cd0b62baa6a6b575a459b720faa46014a",
+      "bytes": 2313
+    },
+    "01_Projects/Deepfake-Detection/configs/avtenet.components-v1.json": {
+      "sha256": "e6867e461259ff2d2929f723097a21b342a062f4786b349d6d91098522151b35",
+      "bytes": 2136
+    },
+    "01_Projects/Deepfake-Detection/configs/avtenet.training-v1.json": {
+      "sha256": "4e7036ef2f164a7b066c4606ba384d6e58319ee9beec318be28f0c891a232d5a",
+      "bytes": 426
+    },
+    "01_Projects/Deepfake-Detection/configs/backbones.reconstruction-v1.json": {
+      "sha256": "5e7c5e908d0af4e9ff925269e2c591c0a5222c02478122cd5de470e670f3f1bc",
+      "bytes": 1243
+    },
+    "01_Projects/Deepfake-Detection/configs/fk.training-v1.json": {
+      "sha256": "6bb49fd7fccc38ba90b1c503a93fdd745bcdb6da3efce83eabc278dcd652d765",
+      "bytes": 536
+    },
+    "01_Projects/Deepfake-Detection/configs/ours.provisional.json": {
+      "sha256": "537e848c12a082dc2a2cc9e1bb8599dbd08545a08008c1380a5d8b7014aa00df",
+      "bytes": 1334
+    },
+    "01_Projects/Deepfake-Detection/configs/robustness.provisional.json": {
+      "sha256": "ae3a3ca8a135c0eb21df0eb5eb4b3bd5a2b95c2fb36c73230647e5b4b3eea11b",
+      "bytes": 539
+    },
+    "01_Projects/Deepfake-Detection/environments/avhubert/constraints.txt": {
+      "sha256": "263e6104a3068e82d47d8eac98c6a3a0f4d18153141da07ad45bbbc981c6188c",
+      "bytes": 358
+    },
+    "01_Projects/Deepfake-Detection/environments/avhubert/README.md": {
+      "sha256": "95bb444d5ba3756cdf780c51d47eafd5a5c9e17dc109938717df8fa16439873b",
+      "bytes": 5410
+    },
+    "01_Projects/Deepfake-Detection/experiments/remaining-001/cache-preflight.json": {
+      "sha256": "467dd2e88cea004a35f3c16835026efda8e3853c4a34ea57c18eec0a658166cb",
+      "bytes": 409
+    },
+    "01_Projects/Deepfake-Detection/experiments/remaining-001/forensic-plan.json": {
+      "sha256": "3bcd742079f7f6a11710e9a57132782c1a025681c3267c58567ce918c474592a",
+      "bytes": 5634
+    },
+    "01_Projects/Deepfake-Detection/experiments/remaining-001/localization-summary.json": {
+      "sha256": "135c5fcdde3c2ab5c67de2c545be48c2075c1d0402a70831d1276da951162028",
+      "bytes": 930
+    },
+    "01_Projects/Deepfake-Detection/experiments/remaining-001/native-cache-preflight.json": {
+      "sha256": "1db3c37ff33023a651939ccfbbd5306b3ded9f04375db116659b09f8eb29a16e",
+      "bytes": 337
+    },
+    "01_Projects/Deepfake-Detection/experiments/remaining-001/plan.json": {
+      "sha256": "dca320c31e455853a37652ea689733d0f9f7941969536196e9716a986f27d93c",
+      "bytes": 3479
+    },
+    "01_Projects/Deepfake-Detection/experiments/remaining-001/profiles/full.grid.json": {
+      "sha256": "892e4edb0a945f14e2757cb5a3c4dd84eca035b7631405b061104421547efc2e",
+      "bytes": 283
+    },
+    "01_Projects/Deepfake-Detection/experiments/remaining-001/profiles/full.json": {
+      "sha256": "c5ebaf77768182225473c600873b7dff385a91ef9738fcd6e2e7f19513d6d0d8",
+      "bytes": 1051
+    },
+    "01_Projects/Deepfake-Detection/experiments/remaining-001/profiles/no_av.grid.json": {
+      "sha256": "892e4edb0a945f14e2757cb5a3c4dd84eca035b7631405b061104421547efc2e",
+      "bytes": 283
+    },
+    "01_Projects/Deepfake-Detection/experiments/remaining-001/profiles/no_av.json": {
+      "sha256": "0ac166e2f92b11a09df5d52d810983324ea3941a3b1c5ae15843bd6097a22c70",
+      "bytes": 1103
+    },
+    "01_Projects/Deepfake-Detection/experiments/remaining-001/profiles/no_temporal.grid.json": {
+      "sha256": "892e4edb0a945f14e2757cb5a3c4dd84eca035b7631405b061104421547efc2e",
+      "bytes": 283
+    },
+    "01_Projects/Deepfake-Detection/experiments/remaining-001/profiles/no_temporal.json": {
+      "sha256": "c840ab6ac867cf00de7d24f077fde736af3dd22c458e59da9ca726e6a2d43f05",
+      "bytes": 1115
+    },
+    "01_Projects/Deepfake-Detection/experiments/remaining-001/profiles/uniform_weights.grid.json": {
+      "sha256": "892e4edb0a945f14e2757cb5a3c4dd84eca035b7631405b061104421547efc2e",
+      "bytes": 283
+    },
+    "01_Projects/Deepfake-Detection/experiments/remaining-001/profiles/uniform_weights.json": {
+      "sha256": "2a37db2472dd07ec264a7d1a05a4ab3dcce552cc0d9896aca040d3ccc6f5efb0",
+      "bytes": 1095
+    },
+    "01_Projects/Deepfake-Detection/experiments/remaining-001/profiles/video_max.grid.json": {
+      "sha256": "b2beafa6ea607be3f5265ff347280cc5baf1fd9c0a461f97853bf9d5004a64f3",
+      "bytes": 243
+    },
+    "01_Projects/Deepfake-Detection/experiments/remaining-001/profiles/video_max.json": {
+      "sha256": "fcf02706040d9143567eda9105de9d091e36bd3f35e5596e248bcc67f383efbb",
+      "bytes": 1056
+    },
+    "01_Projects/Deepfake-Detection/experiments/remaining-001/profiles/video_mean.grid.json": {
+      "sha256": "d73a062962bed74025f8a9400f1b0667242b29519e7a9934bfcd3356ca853fb6",
+      "bytes": 243
+    },
+    "01_Projects/Deepfake-Detection/experiments/remaining-001/profiles/video_mean.json": {
+      "sha256": "b25006d5e02495f2a04a0601971ecac497503d3a1fb305968b826f75baed60b5",
+      "bytes": 1057
+    },
+    "01_Projects/Deepfake-Detection/experiments/remaining-001/profiles/window_max.grid.json": {
+      "sha256": "0e2cb23842079ac5dda52412bba933884d1bcc95540a45220f1a9c42c6b3f419",
+      "bytes": 247
+    },
+    "01_Projects/Deepfake-Detection/experiments/remaining-001/profiles/window_max.json": {
+      "sha256": "dbccd3dca456c27aa9ea24e8f94f05eebb63f78b011950f52263b7db4f7401f2",
+      "bytes": 1057
+    },
+    "01_Projects/Deepfake-Detection/experiments/remaining-001/profiles/window_mean.grid.json": {
+      "sha256": "6fe54093e32d4dc5fe3384564d382d64f290c196d6517c3358168cf3a113a170",
+      "bytes": 248
+    },
+    "01_Projects/Deepfake-Detection/experiments/remaining-001/profiles/window_mean.json": {
+      "sha256": "83f2f35e666905f8d2d2c239b27332f6b6a75f93d15c91618170bb8bc3ed713b",
+      "bytes": 1059
+    },
+    "01_Projects/Deepfake-Detection/experiments/remaining-001/profiling-manifest.json": {
+      "sha256": "5b00b1d91cf9663332f3f5a2f47c4b2bbdc49e5e076c0b34b1c8eabb48635e34",
+      "bytes": 13009
+    },
+    "01_Projects/Deepfake-Detection/experiments/remaining-001/profiling-plan.json": {
+      "sha256": "d06fcee6f419c75977ccfe37787a108bdc3ea2e6e3e81b2062ffb55816451478",
+      "bytes": 695
+    },
+    "01_Projects/Deepfake-Detection/experiments/remaining-001/README.md": {
+      "sha256": "42fb45e1cb1dd6f0c4e49a4bc77eeef93c0e99cd5fa4bee21731a4f4989f30c0",
+      "bytes": 10668
+    },
+    "01_Projects/Deepfake-Detection/experiments/remaining-001/robustness-manifest.json": {
+      "sha256": "25f4c5b9cf2134734fb2265f953817e8d9679050628b0164b04307cc262d7f8c",
+      "bytes": 105167
+    },
+    "01_Projects/Deepfake-Detection/experiments/remaining-001/robustness-plan.json": {
+      "sha256": "847a703ae6bc7d7158f002620ad1461d063e08c2d7732f1f60b197594f5c4d0b",
+      "bytes": 1169
+    },
+    "01_Projects/Deepfake-Detection/experiments/remaining-001/SHA256SUMS.json": {
+      "sha256": "ad42644038c0d9defd0f62ab2ea664adbe6bbd1202319c626da7e9e99c36666a",
+      "bytes": 2479
+    },
+    "01_Projects/Deepfake-Detection/experiments/remaining-001/training.json": {
+      "sha256": "854e8448171e8cef7ef6b12615733bcf32b4fcb69791c4bccc6b7590aea8de5e",
+      "bytes": 534
+    },
+    "01_Projects/Deepfake-Detection/docs/avdeepfake1m-after-download-guide.md": {
+      "sha256": "adad5abe85bcb374ca0870c6163b88fb5ca96005bd5d25733b5314afacc6bc78",
+      "bytes": 52355
+    },
+    "01_Projects/Deepfake-Detection/docs/avdeepfake1m-after-download-guide.th.md": {
+      "sha256": "0fb3f2c1a420fc63b26cc041419092d47cac0a3f3f4851ca9d8bf72e30963486",
+      "bytes": 85326
+    },
+    "01_Projects/Deepfake-Detection/docs/avdeepfake1m-paper-alignment.md": {
+      "sha256": "fa01eb2769384b5678df8a20168dcb2cfd8dc80e645c763967697d7ce5dc2ed6",
+      "bytes": 11243
+    },
+    "01_Projects/Deepfake-Detection/docs/AVFAKENET_MACHINE_A_HANDOFF.md": {
+      "sha256": "415b08a94a13e86e81aab16cbbe1884fcf4eef07c905b5884dd8d32ff4865fd5",
+      "bytes": 23615
+    },
+    "01_Projects/Deepfake-Detection/docs/AVFAKENET_NEXT_FIXES.md": {
+      "sha256": "e2772306fae568e1e6a9bfa97b4da3c7a9e191f7ec4e8bfb03484501ce9ff863",
+      "bytes": 6635
+    },
+    "01_Projects/Deepfake-Detection/docs/avhubert-acceleration-resume.md": {
+      "sha256": "61ec3e5b0d162c29170d66d0bca792496151b08f8ab89cf907fe21bde063523d",
+      "bytes": 7554
+    },
+    "01_Projects/Deepfake-Detection/docs/avhubert-prefetch-optimization.md": {
+      "sha256": "eac4a7cb56a364abe5ff29051637551272c45ff3f45444bed55f1805a08ef321",
+      "bytes": 2130
+    },
+    "01_Projects/Deepfake-Detection/docs/avtenet-auto-continuation.md": {
+      "sha256": "f4b5bcfff3c8a48bc8cd30dfef98388de0bae52e7695a5acd304e211c558b5dd",
+      "bytes": 3996
+    },
+    "01_Projects/Deepfake-Detection/docs/avtenet-pipeline-speed.md": {
+      "sha256": "8e5df865e2090575d5e1ec40628ba70471b408f944322b51354b0a43be38bdcb",
+      "bytes": 4742
+    },
+    "01_Projects/Deepfake-Detection/docs/avtenet-validation-analysis.md": {
+      "sha256": "8e3fb8f7963b9223bf934a77f22689044b70ba35e4a6a14211e5fb617ee10678",
+      "bytes": 2703
+    },
+    "01_Projects/Deepfake-Detection/docs/baselines/avfakenet_audit.md": {
+      "sha256": "30d9094202578bdef89a1ec93ca4fa3ead3732cece2234dcf566cac65cb9443c",
+      "bytes": 9697
+    },
+    "01_Projects/Deepfake-Detection/docs/baselines/avfakenet_reconstruction_v1.md": {
+      "sha256": "6224e16a32cfec1af524bb28a1fa6d236152eb26cfcd5e34cf04104bb2ffe752",
+      "bytes": 8651
+    },
+    "01_Projects/Deepfake-Detection/docs/baselines/avtenet_audit.md": {
+      "sha256": "00df7793c62b3deb9968a26a2f3e762877509b82f4a990a2429bb3b44e7f74e9",
+      "bytes": 10482
+    },
+    "01_Projects/Deepfake-Detection/docs/change-report-fk-pilot.md": {
+      "sha256": "53d71155181a03cf81a20d931c38f8bf8780668d901b1fff5843d2661aab51ec",
+      "bytes": 38610
+    },
+    "01_Projects/Deepfake-Detection/docs/dataset_access_audit.md": {
+      "sha256": "1c26c4852c89d259704e1b9457152c9e27cf1e7708ccafec2aada2dee0b7579a",
+      "bytes": 6761
+    },
+    "01_Projects/Deepfake-Detection/docs/environment_setup.md": {
+      "sha256": "e774298216e35839f2a2245f54eddc3f1613bf6749295b5d0ec4158c67ba3397",
+      "bytes": 1849
+    },
+    "01_Projects/Deepfake-Detection/docs/fk-study-run.md": {
+      "sha256": "7553509e4decb3913bcad29777835c339516ffc88ccd3aef26883230c0fb8719",
+      "bytes": 6314
+    },
+    "01_Projects/Deepfake-Detection/docs/HANDOFF_REMAINING_PRECISION_FIX.md": {
+      "sha256": "61d8ef2fb71a1ddad4b2962eef2b5310b88c47da195045749183b93dac228d52",
+      "bytes": 3127
+    },
+    "01_Projects/Deepfake-Detection/docs/local-heldout-guide.md": {
+      "sha256": "efa28884e8cb5e359e352b8d375bdcf42f78ee9110a76fb69f5f8bc8d7b55c7c",
+      "bytes": 7061
+    },
+    "01_Projects/Deepfake-Detection/docs/MACHINE_B_AVFAKENET_RECOVERY.md": {
+      "sha256": "da0bbf8a80deac01e6c63735302ba743c9665ff43790c45414982217ef293b41",
+      "bytes": 17247
+    },
+    "01_Projects/Deepfake-Detection/docs/machine_inventory.md": {
+      "sha256": "40cb277f7c3f80dd01b034e5971f1831d3cd303eef6c445bbb7451510d8c4203",
+      "bytes": 2891
+    },
+    "01_Projects/Deepfake-Detection/docs/model_infrastructure.md": {
+      "sha256": "bffe52d4041c6546853651eb73cf4a2eed9182d31f4c81c7b7e86b0a303fbc98",
+      "bytes": 17203
+    },
+    "01_Projects/Deepfake-Detection/docs/non_dataset_completion.md": {
+      "sha256": "a1e24ac0a8d72c64d232d13eeeb742000c2b424813c0fe57a3c9f1f001c1dfd4",
+      "bytes": 12996
+    },
+    "01_Projects/Deepfake-Detection/docs/REMAINING_EXPERIMENTS_ACTIVE.md": {
+      "sha256": "03871be959dedafdf978e648d2ff238b5e632ae5f22519028b0dca37ecebf027",
+      "bytes": 5033
+    },
+    "01_Projects/Deepfake-Detection/docs/REMAINING_PREPROCESS_ACCELERATION.md": {
+      "sha256": "da9824e88e7eaa991a1d7c88c099e9998529b0f7b726afbb2c3ef039f8aa84bb",
+      "bytes": 2800
+    },
+    "01_Projects/Deepfake-Detection/docs/REMAINING_SPEEDUP_CLEAN_REUSE.md": {
+      "sha256": "bace310e94f69c3d35b37f4c63e5539bd00b8c1955c872c5c6b0c5eb5247c220",
+      "bytes": 1986
+    },
+    "01_Projects/Deepfake-Detection/docs/REMAINING_SPEEDUP_STREAM_REUSE.md": {
+      "sha256": "8ec20ed976a8a1929b4aba42394dc3962bf0af0cccdc9fe1aaf65bfdde77bbaf",
+      "bytes": 1906
+    },
+    "01_Projects/Deepfake-Detection/docs/shared-controls-guide.md": {
+      "sha256": "3ef42ea5bf5aa259d4954a436b24356b63cf18a7d467451137140fca9d1a1d12",
+      "bytes": 4366
+    },
+    "01_Projects/Deepfake-Detection/docs/specification_ledger.csv": {
+      "sha256": "3e843575f3b1aaa00f37aa2d49184a6bd3341aeff670bafb4d928944f15c9dda",
+      "bytes": 23941
+    },
+    "01_Projects/Deepfake-Detection/docs/START_HERE_SECOND_MACHINE.md": {
+      "sha256": "801f4414b20d8fe751b369fd82b5c871926a29eeb1cdc028668b1d5f1f0cee6d",
+      "bytes": 5501
+    },
+    "01_Projects/Deepfake-Detection/docs/START_HERE_THIRD_MACHINE.md": {
+      "sha256": "d609ce2432e74574899a855d6a6b4d8c87a0ff6c655ce4dfe5b33faf629170b4",
+      "bytes": 6387
+    },
+    "01_Projects/Deepfake-Detection/docs/three-machine-guide.md": {
+      "sha256": "97bedfe0c20e7b07e6f485ec60da5b9959430afe7d45da5a90ead8cb6f491f9b",
+      "bytes": 4876
+    },
+    "01_Projects/Deepfake-Detection/docs/three-machine-guide.th.md": {
+      "sha256": "badb95e54378df4eae023bdd28e3e0cc121b5c5aa0dfe480decee17ebd2c2d74",
+      "bytes": 8014
+    },
+    "01_Projects/Deepfake-Detection/docs/THREE_MODEL_HELDOUT_CONTINUATION.md": {
+      "sha256": "587c011f9efa0bc5d1a3265b3d176edc3b76bcfa7091dfb903772e7e57a88a15",
+      "bytes": 8857
+    },
+    "01_Projects/Deepfake-Detection/docs/two-day-comparison.md": {
+      "sha256": "ff5851b844a465e7c77f93fd162424616c5c29c966cb698ec0d3acedfde5b183",
+      "bytes": 3327
+    },
+    "01_Projects/Deepfake-Detection/docs/two-day-comparison.th.md": {
+      "sha256": "bf8ad6afb46882419bcc9902a6029829c42f9d37001de3eec0bc5029d286b272",
+      "bytes": 5732
+    },
+    "01_Projects/Deepfake-Detection/docs/two-machine-guide.md": {
+      "sha256": "4460f4185e1b14c2d53e12fe7368f45d06e236ea9e351c349559348f9ea81bc3",
+      "bytes": 371
+    },
+    "01_Projects/Deepfake-Detection/docs/two-machine-guide.th.md": {
+      "sha256": "f3945ef12737c36dd0e8f92329ec0d6140031f635b22f0fb3b0501fd6ca376c4",
+      "bytes": 517
+    },
+    "01_Projects/Deepfake-Detection/docs/video-decode-prefetch.md": {
+      "sha256": "3acf84ba5adbf555143939351612fdba1c25ebc1bcebb26eb77215c1899cf4d9",
+      "bytes": 3005
+    },
+    "01_Projects/Deepfake-Detection/pyproject.toml": {
+      "sha256": "cc1a029d514479e935891fc4af7ba0c9614fdb41d8593adfac03359a676cf2a2",
+      "bytes": 887
+    },
+    "01_Projects/Deepfake-Detection/requirements-local.lock.txt": {
+      "sha256": "177e1ffa02efae5c0541b40b0cb24f12bfdb0ebf7e2cc5f8cc6c7efdf20adec8",
+      "bytes": 1759
+    },
+    "01_Projects/Deepfake-Detection/requirements-paper-alignment.lock.txt": {
+      "sha256": "f1e5455cf9f94c04ef7e9f328da7662beccd9141aff9063f97c4741bc009f92a",
+      "bytes": 1400
+    },
+    "01_Projects/Deepfake-Detection/requirements-preprocessing.txt": {
+      "sha256": "a24de80977b6d8ed1b6f361edf3cee7c59a836e85e864be092672357553cd552",
+      "bytes": 249
+    },
+    "01_Projects/avh-a/code/src/deepfake_detection/__init__.py": {
+      "sha256": "a26f4ca114a8cd5f23651cc7f655e47161f65a218cc093e0c8288a13a425c844",
+      "bytes": 69
+    },
+    "01_Projects/avh-a/code/src/deepfake_detection/artifacts.py": {
+      "sha256": "a78d8c7457b1f1756331db692345922d7bc9d97c9568ddf01a09202422a098c3",
+      "bytes": 2686
+    },
+    "01_Projects/avh-a/code/src/deepfake_detection/asset_download.py": {
+      "sha256": "46232e7a7d365673dc51d61d72a11a4623cac2cba6bed3b8a555b2dc8afdd640",
+      "bytes": 13568
+    },
+    "01_Projects/avh-a/code/src/deepfake_detection/avdeepfake1m.py": {
+      "sha256": "1ed42931483275e3a1fd284f4cba40935b3d5ec100e573b40b189e59c16b9af3",
+      "bytes": 17103
+    },
+    "01_Projects/avh-a/code/src/deepfake_detection/avfakenet.py": {
+      "sha256": "7bd36b969a79ba97b2bf30983630e9b47bae411a6d5c4b5ba89392aba7a90031",
+      "bytes": 350
+    },
+    "01_Projects/avh-a/code/src/deepfake_detection/avfakenet_preprocessing.py": {
+      "sha256": "e2eb094a9ba34d00e4f94c5660e4d5ee413a8e5c2572fe99fc7bc70dd723565b",
+      "bytes": 374
+    },
+    "01_Projects/avh-a/code/src/deepfake_detection/avfakenet_smoke.py": {
+      "sha256": "03e93f8f05eb52b58afc50eae43aa54a7795671944264e11f3848c8feed80987",
+      "bytes": 2900
+    },
+    "01_Projects/avh-a/code/src/deepfake_detection/avfakenet_training.py": {
+      "sha256": "41ba5fcd8bf4d897c9ef05d7b092d23708a65b3dbdc656f57cb42c6f0c730ed3",
+      "bytes": 380
+    },
+    "01_Projects/avh-a/code/src/deepfake_detection/avhubert_preparation.py": {
+      "sha256": "85f0262381bb262c4d47bd8975735f2cb1e8500aac5c5fa303c83d405a2884eb",
+      "bytes": 3048
+    },
+    "01_Projects/avh-a/code/src/deepfake_detection/avtenet.py": {
+      "sha256": "6dbc1b40cc6dacdbec1e205ca4db0ee9e911057009fdd6e29b972b7ea5ab8ad9",
+      "bytes": 344
+    },
+    "01_Projects/avh-a/code/src/deepfake_detection/avtenet_training.py": {
+      "sha256": "95602c4c5c2ba4bdf4db0fa276be799c1cb04e5c0c6aec6f5d87a323cd1805a0",
+      "bytes": 374
+    },
+    "01_Projects/avh-a/code/src/deepfake_detection/backbones.py": {
+      "sha256": "b8c4c52e557840e7236a44ea7d3e9f33b33b686809e6a2fc74e09b910bd90adc",
+      "bytes": 12318
+    },
+    "01_Projects/avh-a/code/src/deepfake_detection/baselines.py": {
+      "sha256": "ec0a039e42ad01e5b9fa9388e4dd677338e02453ed112834f2f1198f300f7716",
+      "bytes": 1442
+    },
+    "01_Projects/avh-a/code/src/deepfake_detection/calibration.py": {
+      "sha256": "b99cf97112963f9560f772d2520e6a93dab748cce39b69173fc9c4380acc9f0b",
+      "bytes": 4174
+    },
+    "01_Projects/avh-a/code/src/deepfake_detection/checkpoint_conversion.py": {
+      "sha256": "efe0f215361bf2770ac004c1df7c489550b5a86910d29fc830d14bb67a373e55",
+      "bytes": 4833
+    },
+    "01_Projects/avh-a/code/src/deepfake_detection/cli.py": {
+      "sha256": "c50ca33f3257871b72c5c4608c3e8662861d46ca7c7a018ffb5a34910f2ed327",
+      "bytes": 16764
+    },
+    "01_Projects/avh-a/code/src/deepfake_detection/commands.py": {
+      "sha256": "4bc46dafb8fcf27ed36fbed98d74e9ebc7ce5a69fef53730a7b3d1be4db8ddbe",
+      "bytes": 5767
+    },
+    "01_Projects/avh-a/code/src/deepfake_detection/core.py": {
+      "sha256": "a10e2ba5f1b277ad199ac7b8d14f72a65aec30a06717d6d6e210160acfda9f78",
+      "bytes": 6005
+    },
+    "01_Projects/avh-a/code/src/deepfake_detection/data.py": {
+      "sha256": "46dafa5beda70634ec4f240334902d61e5cffd0f69abf6ea3ebab7be378ae22b",
+      "bytes": 4579
+    },
+    "01_Projects/avh-a/code/src/deepfake_detection/encoders.py": {
+      "sha256": "344c66ee62bd7195431556aa48df8587ad3ba1a2c5ef49e3a5a8ddf92c362e2f",
+      "bytes": 6789
+    },
+    "01_Projects/avh-a/code/src/deepfake_detection/evaluation.py": {
+      "sha256": "e149a10c931c200f7687df0c1ebd00ae635a2786619f2115d97c6110904788cb",
+      "bytes": 2904
+    },
+    "01_Projects/avh-a/code/src/deepfake_detection/experiments.py": {
+      "sha256": "031e14c06c53a750db2218e9e43fb3c7d11db8c46c11e4addd238b8fc9ece3ad",
+      "bytes": 3564
+    },
+    "01_Projects/avh-a/code/src/deepfake_detection/faces.py": {
+      "sha256": "dcbc7a4af71038766fae0780c752579b096fa617415c30142d9c31c97e2638be",
+      "bytes": 9104
+    },
+    "01_Projects/avh-a/code/src/deepfake_detection/feature_cache.py": {
+      "sha256": "1478c97c98e9c10f956295a15a68f21e2e8cd3492eee652e5221de5fbf93a140",
+      "bytes": 3528
+    },
+    "01_Projects/avh-a/code/src/deepfake_detection/fk_caching.py": {
+      "sha256": "e33e74c9f0835eb4bfce65ae62fffce1a72340db5242902db089b7751a6658b4",
+      "bytes": 12980
+    },
+    "01_Projects/avh-a/code/src/deepfake_detection/forensics.py": {
+      "sha256": "c52267482944f7ec97ca986e574b56dfb205dc726068968c283c83e8197ebf28",
+      "bytes": 8885
+    },
+    "01_Projects/avh-a/code/src/deepfake_detection/gpu_queue.py": {
+      "sha256": "338352db9133b48ede8daa45f260cdfd26d7370c5a1e611b405727aca234957d",
+      "bytes": 2503
+    },
+    "01_Projects/avh-a/code/src/deepfake_detection/inference.py": {
+      "sha256": "b202b0ee3fe5f3885b97acad78d508828b0e75e16ab21fc3cf99d095fa960d7e",
+      "bytes": 10251
+    },
+    "01_Projects/avh-a/code/src/deepfake_detection/infrastructure.py": {
+      "sha256": "f89cc306b527e674205cb55afaf10c793ffb61da571308fd5267e41efeee420a",
+      "bytes": 9944
+    },
+    "01_Projects/avh-a/code/src/deepfake_detection/lavdf.py": {
+      "sha256": "11b5884454a8ad9ea5374d5ca2f256f7d528e70262cbdb278e7ad78b50b3bc2c",
+      "bytes": 9751
+    },
+    "01_Projects/avh-a/code/src/deepfake_detection/media.py": {
+      "sha256": "e57dd711faf02133f288a327857447bda8e7e5ba01b0415c7db2152e52e0157f",
+      "bytes": 10302
+    },
+    "01_Projects/avh-a/code/src/deepfake_detection/model.py": {
+      "sha256": "25ed36fe3c260fe2ce788495ce53b65f9e90a32bd1b6d56b159e417b125fbdfb",
+      "bytes": 10744
+    },
+    "01_Projects/avh-a/code/src/deepfake_detection/offline_checks.py": {
+      "sha256": "a408107e9e032db040474dcb3e874875fcbcb1758d6a27c3e4c894637a2488d1",
+      "bytes": 6631
+    },
+    "01_Projects/avh-a/code/src/deepfake_detection/preparation.py": {
+      "sha256": "d6ade56cf95ba12999d8f76b487845fd5a7c9ac37d1c2a18cf244260ac4044c1",
+      "bytes": 8638
+    },
+    "01_Projects/avh-a/code/src/deepfake_detection/pretrained_checks.py": {
+      "sha256": "bfe30ece0fd19c0e32b9e006e4c05cb19ba1f637c85841b1a95d7f2f0a5170cc",
+      "bytes": 7618
+    },
+    "01_Projects/avh-a/code/src/deepfake_detection/profiling.py": {
+      "sha256": "b5e0a806f039cb0ec5cf4a8c1c3b2266d669def657dad13ef410516b29789d0e",
+      "bytes": 3008
+    },
+    "01_Projects/avh-a/code/src/deepfake_detection/provenance.py": {
+      "sha256": "6c299253ffccc4d2cdb7f109c8857bc0d300e45d1dfe0c55fe6e2dd82c6e2b14",
+      "bytes": 1558
+    },
+    "01_Projects/avh-a/code/src/deepfake_detection/quality.py": {
+      "sha256": "a7df5e478a276028e4874f63bea089b3a82f1e51500b86c659634e982274b8d0",
+      "bytes": 3190
+    },
+    "01_Projects/avh-a/code/src/deepfake_detection/quality_fitting.py": {
+      "sha256": "12b467e77c895f6ef4e19d5d13844a472755187a925a07fd3ff7a58ace11e757",
+      "bytes": 14139
+    },
+    "01_Projects/avh-a/code/src/deepfake_detection/reporting.py": {
+      "sha256": "3e6a0cae4f454e61e2504a105b7a0904d65690da6b22749a2561610332077072",
+      "bytes": 11227
+    },
+    "01_Projects/avh-a/code/src/deepfake_detection/robustness.py": {
+      "sha256": "b3286b527857de153da358f1230004f3ba77557aaa816abef2feca0bf39579df",
+      "bytes": 7357
+    },
+    "01_Projects/avh-a/code/src/deepfake_detection/shared_baselines.py": {
+      "sha256": "4ef629a242daa7bdc142b25be1c68923f7454083f826dc4fddfb6dcaec6f54c8",
+      "bytes": 2704
+    },
+    "01_Projects/avh-a/code/src/deepfake_detection/study.py": {
+      "sha256": "50be32d22550a973ce345c1af7d970c3a158c29abde168912c22c048c70844ea",
+      "bytes": 8905
+    },
+    "01_Projects/avh-a/code/src/deepfake_detection/training.py": {
+      "sha256": "a7afaf16c07ddd64231d1d4f7a31aa3c17345d636f8bd2e98ef2e2ab5e261c2e",
+      "bytes": 18468
+    },
+    "01_Projects/avh-a/code/src/deepfake_detection/vad.py": {
+      "sha256": "ae679da2a61214e7be0edac85966cb99fc2ec7a93293e9ff9fe9c95e79f1d429",
+      "bytes": 3752
+    },
+    "01_Projects/avh-a/code/src/deepfake_detection/validation_tools.py": {
+      "sha256": "edb7d35b83a54014ea7788ec04eeeea4d25b40c9dd693e8fbd2e1ad92f53ecd0",
+      "bytes": 2190
+    },
+    "01_Projects/avh-a/code/baselines/__init__.py": {
+      "sha256": "ad57aa7e6a58888e00070a6184f18b0966b90669768216871d082e23d8739623",
+      "bytes": 57
+    },
+    "01_Projects/avh-a/code/baselines/avfakenet/__init__.py": {
+      "sha256": "a3d6b6f87d0f497b42bfc0b8b09f5f1ab4e6d5b117688cfe36d9fb96e34e7359",
+      "bytes": 56
+    },
+    "01_Projects/avh-a/code/baselines/avfakenet/__main__.py": {
+      "sha256": "1109286796bf32de4deda4ad3c192b6d63c7625ae35a25fdd56534a1557c6b5a",
+      "bytes": 106
+    },
+    "01_Projects/avh-a/code/baselines/avfakenet/configs/avfakenet.reconstruction-v1.json": {
+      "sha256": "4d71c98dcd9f459742985ae4f63cb41cd0b62baa6a6b575a459b720faa46014a",
+      "bytes": 2313
+    },
+    "01_Projects/avh-a/code/baselines/avfakenet/legacy_training.py": {
+      "sha256": "c2ed20224e149c58b8a6f1a19c53033ea4e1af20fbe3b69faa321138b8323fb6",
+      "bytes": 5632
+    },
+    "01_Projects/avh-a/code/baselines/avfakenet/model.py": {
+      "sha256": "3f6d38d43425c938461b591178c21b66a7d4623496407e4b74f4493d88f37f9d",
+      "bytes": 19746
+    },
+    "01_Projects/avh-a/code/baselines/avfakenet/pipeline.py": {
+      "sha256": "6a4e275423fc64722e826e86a43c1682b4cc7fe9fe172d281fd723d5a19acbf1",
+      "bytes": 9409
+    },
+    "01_Projects/avh-a/code/baselines/avfakenet/prepared_cache.py": {
+      "sha256": "26517b412ba51f22f04c78b54da93c83634f1687d25fb1dc222a11ee739d5755",
+      "bytes": 2976
+    },
+    "01_Projects/avh-a/code/baselines/avfakenet/preprocessing.py": {
+      "sha256": "44ac60991a9e48cd586094a2d61648383da4805b6e8e0e8fcffd61d3ba44d28d",
+      "bytes": 3486
+    },
+    "01_Projects/avh-a/code/baselines/avfakenet/README.md": {
+      "sha256": "8a5198d2b7c09d46319945c5dff634ca5a9966a882419925f72c8eecce505b2f",
+      "bytes": 4430
+    },
+    "01_Projects/avh-a/code/baselines/avfakenet/README.th.md": {
+      "sha256": "b37e39303a3485dca383d3986582e1026d49b31693ca23e9bc56432f0e6b7552",
+      "bytes": 4834
+    },
+    "01_Projects/avh-a/code/baselines/avtenet/__init__.py": {
+      "sha256": "a3d6b6f87d0f497b42bfc0b8b09f5f1ab4e6d5b117688cfe36d9fb96e34e7359",
+      "bytes": 56
+    },
+    "01_Projects/avh-a/code/baselines/avtenet/__main__.py": {
+      "sha256": "cecfa7683f8452ec897efe9824030f09cadedd34d5c205411b319cf1b16c27df",
+      "bytes": 104
+    },
+    "01_Projects/avh-a/code/baselines/avtenet/acquire.py": {
+      "sha256": "d59d512f746e300db3445996f0b0aef27a8e6a81619444a77c3984813cfdf651",
+      "bytes": 2377
+    },
+    "01_Projects/avh-a/code/baselines/avtenet/acquire_hf_vivit.py": {
+      "sha256": "e4622da41e62452d1f2846afbc495627bf827e22acb85ea7e6c832ef537e1906",
+      "bytes": 4276
+    },
+    "01_Projects/avh-a/code/baselines/avtenet/assets.py": {
+      "sha256": "6699d0d2c4b6e78c25fc73888bd4f703c0326d72d43a17f7e33ef16c3ccabc9a",
+      "bytes": 6447
+    },
+    "01_Projects/avh-a/code/baselines/avtenet/configs/assets.example.json": {
+      "sha256": "eccd52857bcd1b77c0740159c36918a1c06b198fc90e7503bfd4782d59908b1a",
+      "bytes": 661
+    },
+    "01_Projects/avh-a/code/baselines/avtenet/configs/avtenet.components-v1.json": {
+      "sha256": "e6867e461259ff2d2929f723097a21b342a062f4786b349d6d91098522151b35",
+      "bytes": 2136
+    },
+    "01_Projects/avh-a/code/baselines/avtenet/configs/avtenet.hf-joint-adaptation-v1.json": {
+      "sha256": "7130edcabb565c262f1ad031ec6cd604b343c19b967f88180c67cdb53146cce2",
+      "bytes": 2622
+    },
+    "01_Projects/avh-a/code/baselines/avtenet/configs/avtenet.training-v1.json": {
+      "sha256": "4e7036ef2f164a7b066c4606ba384d6e58319ee9beec318be28f0c891a232d5a",
+      "bytes": 426
+    },
+    "01_Projects/avh-a/code/baselines/avtenet/configs/backbones.reconstruction-v1.json": {
+      "sha256": "5e7c5e908d0af4e9ff925269e2c591c0a5222c02478122cd5de470e670f3f1bc",
+      "bytes": 1243
+    },
+    "01_Projects/avh-a/code/baselines/avtenet/convert_vivit.py": {
+      "sha256": "ea6ec16efbbcc0f73e7924ec4ae7b61855788ee174796ed71c891229299d29ce",
+      "bytes": 4089
+    },
+    "01_Projects/avh-a/code/baselines/avtenet/feature_resume.py": {
+      "sha256": "3f7e00bcd026f0a59a5e62c232b3e02500f1c40399bf8e0b8049eb6016367728",
+      "bytes": 6830
+    },
+    "01_Projects/avh-a/code/baselines/avtenet/heldout_preparation.py": {
+      "sha256": "f659630a81987a9511d0cd5dbcbc03359fefb4bbaf18be3edc637ab980c94cb2",
+      "bytes": 5047
+    },
+    "01_Projects/avh-a/code/baselines/avtenet/hf_vivit.py": {
+      "sha256": "35faa9ae8d7303236fb8f91f3e25525ec78985363649ec20bf11116109b9d62a",
+      "bytes": 4821
+    },
+    "01_Projects/avh-a/code/baselines/avtenet/input_cache.py": {
+      "sha256": "acc983ebb8d493d5876af6c4beb927a31e827ea4d198235d2c51b2bc4b239cb7",
+      "bytes": 4134
+    },
+    "01_Projects/avh-a/code/baselines/avtenet/legacy_training.py": {
+      "sha256": "77909eb56dc30603ceabd7aaeadcb4bb49aa188250a1769583c4843267a4bba1",
+      "bytes": 8887
+    },
+    "01_Projects/avh-a/code/baselines/avtenet/model.py": {
+      "sha256": "fe06372929d5edcfda0a77a51b150758199db3369f0f8e7ffb1eebc010f3212c",
+      "bytes": 12480
+    },
+    "01_Projects/avh-a/code/baselines/avtenet/pipeline.py": {
+      "sha256": "b8b985ddd68c684925073fbc0d8687b66e4725364a19b1157f27c1b292bdaab0",
+      "bytes": 30671
+    },
+    "01_Projects/avh-a/code/baselines/avtenet/README.md": {
+      "sha256": "03fe76abdfcfe2870f4fb95b4cc9c95941182d79088b8d7f6695749613496934",
+      "bytes": 8889
+    },
+    "01_Projects/avh-a/code/baselines/avtenet/README.th.md": {
+      "sha256": "1463a6b0f5b584e3596850d2871d41fd058bd3510f25b2f42fdd55b5bf07f633",
+      "bytes": 7858
+    },
+    "01_Projects/avh-a/code/baselines/avtenet/runtime/Dockerfile": {
+      "sha256": "7abe7856f215ac7df54c6f288bc5c6ecc56e2dea7378b89f70f040b362d21760",
+      "bytes": 1422
+    },
+    "01_Projects/avh-a/code/baselines/avtenet/runtime/invoke-docker.ps1": {
+      "sha256": "c9463b8c3c9d8477197e1014d0fd2e5035cd62f2d9e2457ee39700b8a6fdecaa",
+      "bytes": 800
+    },
+    "01_Projects/avh-a/code/baselines/avtenet/runtime/invoke-wsl.ps1": {
+      "sha256": "20cc002d10da51ff2c6e8779e9760f4daa88b0bc8f713fa7d0e4d42dfe1cbb1b",
+      "bytes": 611
+    },
+    "01_Projects/avh-a/code/baselines/common/__init__.py": {
+      "sha256": "a3d6b6f87d0f497b42bfc0b8b09f5f1ab4e6d5b117688cfe36d9fb96e34e7359",
+      "bytes": 56
+    },
+    "01_Projects/avh-a/code/baselines/common/cli.py": {
+      "sha256": "1b2a44783c137528d278de549aab3663527ece315c42ffa328ef860f548de88b",
+      "bytes": 7422
+    },
+    "01_Projects/avh-a/code/baselines/common/decode_prefetch.py": {
+      "sha256": "0cb0744a6e0b090764a8227042d81843253dea97b20bab6772ea290fd109cb28",
+      "bytes": 1496
+    },
+    "01_Projects/avh-a/code/baselines/common/detection_cache.py": {
+      "sha256": "4976175c775246ee793c2feb52baf7327fc9c61e60e8d086d42a6a6463240226",
+      "bytes": 1725
+    },
+    "01_Projects/avh-a/code/baselines/common/exceptions.py": {
+      "sha256": "69abe8c526fceffc2efc9be5fb75647c15d4e690578fc1a253c3b3638b33835c",
+      "bytes": 102
+    },
+    "01_Projects/avh-a/code/baselines/common/io.py": {
+      "sha256": "8393df70e9c67546a4703e41f49913d83c39deef203777e29f872d1e2646094b",
+      "bytes": 2477
+    },
+    "01_Projects/avh-a/code/baselines/common/media.py": {
+      "sha256": "a0f4f4d26227c0786c108c3a1a38a321ea6adc55773c49580b7efdad889095db",
+      "bytes": 3940
+    },
+    "01_Projects/avh-a/code/baselines/common/metrics.py": {
+      "sha256": "1fe63a3292842450ae7b6a989a2f11919841278f4b574efe31c01656cbf7435c",
+      "bytes": 3617
+    },
+    "01_Projects/avh-a/code/baselines/common/population.py": {
+      "sha256": "390140bc7b4a69d658a05fd0998feffdcd762387accdba147adbeb3c33f818ee",
+      "bytes": 5944
+    },
+    "01_Projects/avh-a/code/baselines/common/readiness.py": {
+      "sha256": "3d66fa34f5521ed53f24141238a479aae44ebb00c606c099514dc8fe93707328",
+      "bytes": 1170
+    },
+    "01_Projects/avh-a/code/baselines/common/subset.py": {
+      "sha256": "54a32b135f79c17dfbe4f72f1c14a7b7ef482996f6f71a94cfeee4140816e444",
+      "bytes": 5509
+    },
+    "01_Projects/avh-a/code/baselines/common/training.py": {
+      "sha256": "8e129c88540a6898ca513c9531db2f2f3aca04894a9d0380b693f5850d4664a3",
+      "bytes": 16692
+    },
+    "01_Projects/avh-a/code/baselines/common/video_reader.py": {
+      "sha256": "3cf515e79579cdad9f068a2911fbd390cde8017f9e79fb029e0bbbc8be66d1ab",
+      "bytes": 4701
+    },
+    "01_Projects/avh-a/code/baselines/README.md": {
+      "sha256": "a768a1aa0addd3d7c2922ba02c59d650950484422005223db91f6f7726cde718",
+      "bytes": 6726
+    },
+    "01_Projects/avh-a/code/baselines/README.th.md": {
+      "sha256": "0afa2899f80b6a945d322599f2ed53263d2988c10d1554819df43799235dae66",
+      "bytes": 7820
+    },
+    "01_Projects/avh-a/code/baselines/requirements.txt": {
+      "sha256": "9591cb6c12d6b2c80e645be54b02ed7efe9b1e6e45916c15d64e6d41bfdbcf63",
+      "bytes": 357
+    },
+    "01_Projects/avh-a/code/scripts/acquire_pretrained.py": {
+      "sha256": "67ffd47af08d67fea3fbaf79d8e2a84f43f275e692b96111b33c067dba8c5e8e",
+      "bytes": 1749
+    },
+    "01_Projects/avh-a/code/scripts/auto_after_avhubert.py": {
+      "sha256": "4c3a1a6d2aca500a69995216d6a883594e640f8200cd29a7f5dbcd76ab33ad32",
+      "bytes": 18590
+    },
+    "01_Projects/avh-a/code/scripts/avhubert_worker.py": {
+      "sha256": "7f8e5bc6ccb6689b91660ebed9fb494fe732db9d113da5b1463212b6eebaa3cb",
+      "bytes": 5993
+    },
+    "01_Projects/avh-a/code/scripts/benchmark_heldout_preparation.py": {
+      "sha256": "e09c908853e210bb57aed6332d919b6641bd930344579d944fe941284fb411c5",
+      "bytes": 4393
+    },
+    "01_Projects/avh-a/code/scripts/benchmark_live_decode_prefetch.py": {
+      "sha256": "49e1b60226596e99baa792af73bbf1151ef65d049a28e9ba65af2f6ebd0d4fa0",
+      "bytes": 6694
+    },
+    "01_Projects/avh-a/code/scripts/benchmark_visual_threads.py": {
+      "sha256": "c161f2464694a426dc5948352088d2336ee05ad2f8cde2bb228856f1abb649a9",
+      "bytes": 3881
+    },
+    "01_Projects/avh-a/code/scripts/bootstrap_avhubert.sh": {
+      "sha256": "f30c48dd1ffbbcfb21defc075c4098bfe2b9c9f8fc13433ca0c911a003f8cd9b",
+      "bytes": 1249
+    },
+    "01_Projects/avh-a/code/scripts/check_avhubert_environment.py": {
+      "sha256": "7cb04f23744f97b6b0892b52b9f3b75a20e85bf85ee8d32cb712152bf49b2c61",
+      "bytes": 3798
+    },
+    "01_Projects/avh-a/code/scripts/check_fk_runtime.py": {
+      "sha256": "00773a625ac5df580c932f787f27cda17628cf5efcfc7b4870eb46e229c4bf93",
+      "bytes": 1671
+    },
+    "01_Projects/avh-a/code/scripts/check_worker_cuda.py": {
+      "sha256": "5c4d60147bfcd1f3f429637d6c424fcc43f5537977fcb0e6fdaddefc0f965e50",
+      "bytes": 739
+    },
+    "01_Projects/avh-a/code/scripts/compare_three_models.py": {
+      "sha256": "44d16a33642b2b6b0e9500465a368a67fa04d1cd43cc20b43f4f3a731e51f46b",
+      "bytes": 2680
+    },
+    "01_Projects/avh-a/code/scripts/configure_worker_b.py": {
+      "sha256": "6eea56244c5cb1a93e83b4297a1d3f7cd7920cb02a33d13235aa4d4e4d3a47f7",
+      "bytes": 1921
+    },
+    "01_Projects/avh-a/code/scripts/configure_worker_c.py": {
+      "sha256": "ca3c54ea944224ab0d7d91f3197ec7a983a2af355f4ee03e9b606e5b1d77ac8f",
+      "bytes": 3296
+    },
+    "01_Projects/avh-a/code/scripts/export_second_machine.py": {
+      "sha256": "b01a633bb096f25b3d250cd8b544e35fd955afb9be3572966fc4ba39d74c8d88",
+      "bytes": 8189
+    },
+    "01_Projects/avh-a/code/scripts/machine_a.ps1": {
+      "sha256": "cefd988be13f5aa77fd8c9b67e08e64818ba72e518795e047472d80423006a87",
+      "bytes": 2020
+    },
+    "01_Projects/avh-a/code/scripts/machine_b.ps1": {
+      "sha256": "52296812dbeb526fe918ef634e64c717bf3a1f6dc767fae9ade9f60b0aa3a5f1",
+      "bytes": 1483
+    },
+    "01_Projects/avh-a/code/scripts/machine_c.ps1": {
+      "sha256": "a823264343d8b0bf60abf981dc22c51e4aff1af4c7f463dda45627f43808c6e1",
+      "bytes": 2156
+    },
+    "01_Projects/avh-a/code/scripts/native_avhubert_bootstrap.py": {
+      "sha256": "de9ff9057f20a941f890f52a555edd93e481260b61521f758376bdfc5b251466",
+      "bytes": 1554
+    },
+    "01_Projects/avh-a/code/scripts/native_frozen_worker.py": {
+      "sha256": "bbbf1fdbda4d7d6624c43aa0fbe917a5a7e81db45835b8db2c2e649b8de5d89e",
+      "bytes": 1527
+    },
+    "01_Projects/avh-a/code/scripts/prepare_avhubert_input.py": {
+      "sha256": "0d9db2f5caed003776d3e497952db0004770c991b4680a4196d0162c614fde9d",
+      "bytes": 2552
+    },
+    "01_Projects/avh-a/code/scripts/prepare_without_dataset.sh": {
+      "sha256": "284c1980947b02c27b665715a05231012eaa79b42374ddd4524405aa90a79230",
+      "bytes": 384
+    },
+    "01_Projects/avh-a/code/scripts/prewarm_heldout_audio.py": {
+      "sha256": "a57593fe75d05a2275422ebefd6aa81a9364258591a75b11200d688f02561189",
+      "bytes": 4440
+    },
+    "01_Projects/avh-a/code/scripts/probe_avh_cpu.py": {
+      "sha256": "c3a13e00c3001d6bf6101213d8527211a0be11abebac5a3fcb87ad362fb2412a",
+      "bytes": 3235
+    },
+    "01_Projects/avh-a/code/scripts/resume_heldout_only.py": {
+      "sha256": "292e1da52ca6f0f2dbc17a927be835db3f7e65283a3b5596f136b1abd9cde376",
+      "bytes": 6181
+    },
+    "01_Projects/avh-a/code/scripts/run_avtenet_frozen_test.py": {
+      "sha256": "dee2c9c064ee0a93707bd178f1167c58aa750ad858a5c676b6959cbf27ed01c1",
+      "bytes": 12035
+    },
+    "01_Projects/avh-a/code/scripts/run_avtenet_subset.py": {
+      "sha256": "7e326ac6549a70a911fc20d1fb74571b7a5b27f7a174a84a322e182d94255314",
+      "bytes": 15320
+    },
+    "01_Projects/avh-a/code/scripts/run_machine_a.py": {
+      "sha256": "4e87dfff2f60ef2e424fa61b6bfe058e3e57e54f0a342039f22aaeadeb8f5ab0",
+      "bytes": 1663
+    },
+    "01_Projects/avh-a/code/scripts/run_two_day.py": {
+      "sha256": "c27aedd8e54fe87327c4c5d8407843d1798c1555ddbc819388444e8be6ab4c63",
+      "bytes": 12685
+    },
+    "01_Projects/avh-a/code/scripts/setup_avhubert.sh": {
+      "sha256": "20428b034cae50f6498c8eb434734f1dc54c7f1d7d3c30ea1c2b82ec53068fdf",
+      "bytes": 4573
+    },
+    "01_Projects/avh-a/code/scripts/setup_environment.sh": {
+      "sha256": "0fdc7a46bf9d43f213635b1e0d7fffe72ca598bca16933d83ecbcfac906137a3",
+      "bytes": 1861
+    },
+    "01_Projects/avh-a/code/scripts/transfer_worker_results.py": {
+      "sha256": "1bf23e5876550ee3d8b9d0571854ef3eb205420bfb2645e2033b5c707369a9c7",
+      "bytes": 7270
+    },
+    "01_Projects/avh-a/code/scripts/verify_second_machine.py": {
+      "sha256": "2dac2ea7955c37b462cf3cd3b291db0479e43e6c42239991ba644896b270a9e1",
+      "bytes": 2052
+    },
+    "01_Projects/avh-a/code/scripts/worker_environment.ps1": {
+      "sha256": "ddb294fe1564d89ab022d6deb7eb78cc2998922eb9271d149b4ea8e0b6e1311b",
+      "bytes": 1258
+    },
+    "01_Projects/avh-a/code/tests/test_auto_continuation.py": {
+      "sha256": "e3372bac3fceb474f61c50abc5d55541c71437742a40123ad4c577663cbb2adb",
+      "bytes": 7201
+    },
+    "01_Projects/avh-a/code/tests/test_avdeepfake1m.py": {
+      "sha256": "e07d3a4ac5863e640f1c29e5d4b4830d275d39b3a59761c1ce96c850a9f2ce0f",
+      "bytes": 13465
+    },
+    "01_Projects/avh-a/code/tests/test_avfakenet.py": {
+      "sha256": "d7ac2fef0bf0ed706f8ea7c2ed6a279775c5dfb39d582f7e5fdbf5098fc46b75",
+      "bytes": 9888
+    },
+    "01_Projects/avh-a/code/tests/test_avhubert_processed_prefetch.py": {
+      "sha256": "2e03567f4194fc7e12325d4fa296a3df261dd35e955c9d78cbc8801a6da1914e",
+      "bytes": 3388
+    },
+    "01_Projects/avh-a/code/tests/test_avtenet.py": {
+      "sha256": "c1c4d2cde63fc161538fbcbc6d8d7b44e1217608d5887c32f66d53151c93ed96",
+      "bytes": 6771
+    },
+    "01_Projects/avh-a/code/tests/test_avtenet_adaptation.py": {
+      "sha256": "064d7959fcdaf7b11469d09b6040a795651b3f8d488d56bcf5394ca859bf3178",
+      "bytes": 2389
+    },
+    "01_Projects/avh-a/code/tests/test_avtenet_io_optimization.py": {
+      "sha256": "2d66e4cfba7a07d7452d269876228e86bb2a09ee1c9e9c896092f8c461d0feac",
+      "bytes": 12483
+    },
+    "01_Projects/avh-a/code/tests/test_avtenet_preparation_speed.py": {
+      "sha256": "9b885654afcd2049d0b7fe63cefb9a6f39b44d9af2a17574a55fd11e2755e0f2",
+      "bytes": 6147
+    },
+    "01_Projects/avh-a/code/tests/test_comparator_workflows.py": {
+      "sha256": "0b4da55c19fe7aedc82d423bc532bc8af7171652f010e5ed55c80156dc40741a",
+      "bytes": 12637
+    },
+    "01_Projects/avh-a/code/tests/test_decode_prefetch.py": {
+      "sha256": "0bef77edd35ea33c9112ab75111a97b0c587960beac40da69156f40f7d78c295",
+      "bytes": 7936
+    },
+    "01_Projects/avh-a/code/tests/test_experiment_tools.py": {
+      "sha256": "a005ba9afe32edd69394996d772694d964fef84a3b9d7d69fc4145085e262a08",
+      "bytes": 17289
+    },
+    "01_Projects/avh-a/code/tests/test_feature_cache_resume.py": {
+      "sha256": "e83eb5681e2a32f23b0219eee041e7a7b311b2e729cf06ac694db6b37f6a7d7e",
+      "bytes": 9365
+    },
+    "01_Projects/avh-a/code/tests/test_fk_cache_resume.py": {
+      "sha256": "6c243816b3ad80622a3321340efab60fa3596871fb01768bcf7d273e34f1294e",
+      "bytes": 5754
+    },
+    "01_Projects/avh-a/code/tests/test_foundations.py": {
+      "sha256": "ecbe4155c09e060c6af798209ff0183e37ca14bbc19582673940d6efea97d42a",
+      "bytes": 13281
+    },
+    "01_Projects/avh-a/code/tests/test_heldout_preparation_speed.py": {
+      "sha256": "3c26e07cbf4d7977710b214171a6f5763998087a7f3ce1ff745b95dca870a9ca",
+      "bytes": 5684
+    },
+    "01_Projects/avh-a/code/tests/test_infrastructure.py": {
+      "sha256": "2b2251a2a77c9a4140d4a4e56ad305d8a0b9ab2b2196bc841ba8dec51b8fba9a",
+      "bytes": 24028
+    },
+    "01_Projects/avh-a/code/tests/test_lavdf.py": {
+      "sha256": "d5e2f5b7fa6687d63edc505674cf97eee38cacf78dfbb5446430646890645987",
+      "bytes": 3974
+    },
+    "01_Projects/avh-a/code/tests/test_model.py": {
+      "sha256": "e716fc54406bdefddf1deea1f13b2f6e66d5fa73818b3e3355bba0a2c0855d7b",
+      "bytes": 5872
+    },
+    "01_Projects/avh-a/code/tests/test_paper_alignment.py": {
+      "sha256": "59865a480a234552e97671abec95c368bdc73e4e403abf29af26e887f6f58c46",
+      "bytes": 19633
+    },
+    "01_Projects/avh-a/code/tests/test_quality_resume.py": {
+      "sha256": "8e673b1658eb237138c7ec47e652de5402a67d2e9d754d923888d4781e99ac4d",
+      "bytes": 6961
+    },
+    "01_Projects/avh-a/code/tests/test_three_machine.py": {
+      "sha256": "974e92a2d65e776e10ffb051f24a5a91fd9c8564ca2693bac63ebc50d1113bb0",
+      "bytes": 12628
+    },
+    "01_Projects/avh-a/code/tests/test_training_mid_epoch.py": {
+      "sha256": "b9451897aa14a8eedd464ecfe03bd1a1e3eab3ccf29bb5cc91ca7976eb7a69a4",
+      "bytes": 7138
+    },
+    "01_Projects/avh-a/code/tests/test_two_day.py": {
+      "sha256": "970fa78d4c4b0fd359963e13e72963f03be8135b31befe2ea05087054081e7c5",
+      "bytes": 4568
+    },
+    "01_Projects/avh-a/code/tests/test_two_machine.py": {
+      "sha256": "2f92bbcb9ccc190ef667558d0822ef20f45eb0fcd96ee058f5e517d7cf77c1fd",
+      "bytes": 6275
+    },
+    "01_Projects/avh-a/code/configs/assets.example.json": {
+      "sha256": "3877af198a9742c683182904516aaa65a590ea9575320bea3f6cd8e295840a2f",
+      "bytes": 527
+    },
+    "01_Projects/avh-a/code/configs/avfakenet.audit.json": {
+      "sha256": "424460a1b16f3d9334fcdd32e79a457f3b5c5ce8d9b8690dfeb3f15c959a435b",
+      "bytes": 1830
+    },
+    "01_Projects/avh-a/code/configs/avfakenet.reconstruction-v1.json": {
+      "sha256": "4d71c98dcd9f459742985ae4f63cb41cd0b62baa6a6b575a459b720faa46014a",
+      "bytes": 2313
+    },
+    "01_Projects/avh-a/code/configs/avtenet.components-v1.json": {
+      "sha256": "e6867e461259ff2d2929f723097a21b342a062f4786b349d6d91098522151b35",
+      "bytes": 2136
+    },
+    "01_Projects/avh-a/code/configs/avtenet.training-v1.json": {
+      "sha256": "4e7036ef2f164a7b066c4606ba384d6e58319ee9beec318be28f0c891a232d5a",
+      "bytes": 426
+    },
+    "01_Projects/avh-a/code/configs/backbones.reconstruction-v1.json": {
+      "sha256": "5e7c5e908d0af4e9ff925269e2c591c0a5222c02478122cd5de470e670f3f1bc",
+      "bytes": 1243
+    },
+    "01_Projects/avh-a/code/configs/fk.training-v1.json": {
+      "sha256": "6bb49fd7fccc38ba90b1c503a93fdd745bcdb6da3efce83eabc278dcd652d765",
+      "bytes": 536
+    },
+    "01_Projects/avh-a/code/configs/ours.provisional.json": {
+      "sha256": "537e848c12a082dc2a2cc9e1bb8599dbd08545a08008c1380a5d8b7014aa00df",
+      "bytes": 1334
+    },
+    "01_Projects/avh-a/code/configs/robustness.provisional.json": {
+      "sha256": "ae3a3ca8a135c0eb21df0eb5eb4b3bd5a2b95c2fb36c73230647e5b4b3eea11b",
+      "bytes": 539
+    },
+    "01_Projects/avh-a/code/docs/avdeepfake1m-after-download-guide.md": {
+      "sha256": "adad5abe85bcb374ca0870c6163b88fb5ca96005bd5d25733b5314afacc6bc78",
+      "bytes": 52355
+    },
+    "01_Projects/avh-a/code/docs/avdeepfake1m-after-download-guide.th.md": {
+      "sha256": "0fb3f2c1a420fc63b26cc041419092d47cac0a3f3f4851ca9d8bf72e30963486",
+      "bytes": 85326
+    },
+    "01_Projects/avh-a/code/docs/avdeepfake1m-paper-alignment.md": {
+      "sha256": "fa01eb2769384b5678df8a20168dcb2cfd8dc80e645c763967697d7ce5dc2ed6",
+      "bytes": 11243
+    },
+    "01_Projects/avh-a/code/docs/baselines/avfakenet_audit.md": {
+      "sha256": "30d9094202578bdef89a1ec93ca4fa3ead3732cece2234dcf566cac65cb9443c",
+      "bytes": 9697
+    },
+    "01_Projects/avh-a/code/docs/baselines/avfakenet_reconstruction_v1.md": {
+      "sha256": "6224e16a32cfec1af524bb28a1fa6d236152eb26cfcd5e34cf04104bb2ffe752",
+      "bytes": 8651
+    },
+    "01_Projects/avh-a/code/docs/baselines/avtenet_audit.md": {
+      "sha256": "00df7793c62b3deb9968a26a2f3e762877509b82f4a990a2429bb3b44e7f74e9",
+      "bytes": 10482
+    },
+    "01_Projects/avh-a/code/docs/change-report-fk-pilot.md": {
+      "sha256": "5cb8c98d81a420119303a7fc1ea5bd289a95ee6ebfcd8b6af52611cf4432d8d5",
+      "bytes": 38690
+    },
+    "01_Projects/avh-a/code/docs/dataset_access_audit.md": {
+      "sha256": "1c26c4852c89d259704e1b9457152c9e27cf1e7708ccafec2aada2dee0b7579a",
+      "bytes": 6761
+    },
+    "01_Projects/avh-a/code/docs/environment_setup.md": {
+      "sha256": "e774298216e35839f2a2245f54eddc3f1613bf6749295b5d0ec4158c67ba3397",
+      "bytes": 1849
+    },
+    "01_Projects/avh-a/code/docs/fk-study-run.md": {
+      "sha256": "cb22fd66ff85b97ef0b6d0591e2bf049679ebb27b4f0542ce72b17e2f3ae4871",
+      "bytes": 6330
+    },
+    "01_Projects/avh-a/code/docs/machine_inventory.md": {
+      "sha256": "40cb277f7c3f80dd01b034e5971f1831d3cd303eef6c445bbb7451510d8c4203",
+      "bytes": 2891
+    },
+    "01_Projects/avh-a/code/docs/model_infrastructure.md": {
+      "sha256": "bffe52d4041c6546853651eb73cf4a2eed9182d31f4c81c7b7e86b0a303fbc98",
+      "bytes": 17203
+    },
+    "01_Projects/avh-a/code/docs/non_dataset_completion.md": {
+      "sha256": "a1e24ac0a8d72c64d232d13eeeb742000c2b424813c0fe57a3c9f1f001c1dfd4",
+      "bytes": 12996
+    },
+    "01_Projects/avh-a/code/docs/specification_ledger.csv": {
+      "sha256": "3e843575f3b1aaa00f37aa2d49184a6bd3341aeff670bafb4d928944f15c9dda",
+      "bytes": 23941
+    },
+    "01_Projects/avh-a/code/docs/START_HERE_SECOND_MACHINE.md": {
+      "sha256": "801f4414b20d8fe751b369fd82b5c871926a29eeb1cdc028668b1d5f1f0cee6d",
+      "bytes": 5501
+    },
+    "01_Projects/avh-a/code/docs/START_HERE_THIRD_MACHINE.md": {
+      "sha256": "d609ce2432e74574899a855d6a6b4d8c87a0ff6c655ce4dfe5b33faf629170b4",
+      "bytes": 6387
+    },
+    "01_Projects/avh-a/code/docs/three-machine-guide.md": {
+      "sha256": "97bedfe0c20e7b07e6f485ec60da5b9959430afe7d45da5a90ead8cb6f491f9b",
+      "bytes": 4876
+    },
+    "01_Projects/avh-a/code/docs/three-machine-guide.th.md": {
+      "sha256": "badb95e54378df4eae023bdd28e3e0cc121b5c5aa0dfe480decee17ebd2c2d74",
+      "bytes": 8014
+    },
+    "01_Projects/avh-a/code/docs/two-day-comparison.md": {
+      "sha256": "ff5851b844a465e7c77f93fd162424616c5c29c966cb698ec0d3acedfde5b183",
+      "bytes": 3327
+    },
+    "01_Projects/avh-a/code/docs/two-day-comparison.th.md": {
+      "sha256": "bf8ad6afb46882419bcc9902a6029829c42f9d37001de3eec0bc5029d286b272",
+      "bytes": 5732
+    },
+    "01_Projects/avh-a/code/docs/two-machine-guide.md": {
+      "sha256": "4460f4185e1b14c2d53e12fe7368f45d06e236ea9e351c349559348f9ea81bc3",
+      "bytes": 371
+    },
+    "01_Projects/avh-a/code/docs/two-machine-guide.th.md": {
+      "sha256": "f3945ef12737c36dd0e8f92329ec0d6140031f635b22f0fb3b0501fd6ca376c4",
+      "bytes": 517
+    },
+    "01_Projects/avh-a/code/pyproject.toml": {
+      "sha256": "2e7a48e594694cc89d9bcaa24153ddd28bc0b09c264ddd3f20f5da5a6ae92258",
+      "bytes": 877
+    },
+    "06_Tools/workspace/workspace_paths.py": {
+      "sha256": "a208cd603cc67c9bc89c04f8cf454838a25fb353f90cf8e30f1ec8a6e6427bcb",
+      "bytes": 4003
+    },
+    "06_Tools/workspace/workspace_paths.ps1": {
+      "sha256": "663ce8828f5eb74f1ef020bec97e428766278d4660ecc44ecbab356e233acbd1",
+      "bytes": 2857
+    },
+    "06_Tools/workspace-index/benchmark_training_scaling.py": {
+      "sha256": "3988a45db50ed78ecf311ef7ccb487bc36327d3f5daa7c9a9669a54fb7e513ae",
+      "bytes": 14663
+    },
+    "06_Tools/workspace-index/build_paper_visuals.py": {
+      "sha256": "c2f6b37d98a5bc693224290bfd2535ad03c2ce3eaba5a8a6bd9b53a657409594",
+      "bytes": 89539
+    },
+    "06_Tools/workspace-index/build_three_mechanism_figures.py": {
+      "sha256": "1324a791818cbbae1533a5f4081f901a4bb12e79da34aee43f15b76bdfa7c600",
+      "bytes": 27978
+    },
+    "06_Tools/workspace-index/build_three_mechanism_lines.py": {
+      "sha256": "2848ae932fc144cccf341174f8a2ad5fee14a16e339a9dd2990febacf9da9ba7",
+      "bytes": 23595
+    },
+    "06_Tools/workspace-index/cache_cost_probe.py": {
+      "sha256": "b783001b56a37bdd0293082e0e73466a59e1ee8ec3ecc2b66bb7fb0b3075afa4",
+      "bytes": 3470
+    },
+    "06_Tools/workspace-index/check_curated_visuals.py": {
+      "sha256": "a326e9b13f07ec6a7f85d65a1c6d4d2126581c1fc2b7bffbad4a623c7681546a",
+      "bytes": 2290
+    },
+    "06_Tools/workspace-index/check_paper_visuals.py": {
+      "sha256": "9310fb64f0d624006f4acf523987f7c752958de0f587dfee418b9585700e0bc7",
+      "bytes": 6912
+    },
+    "06_Tools/workspace-index/check_revised_comparisons.py": {
+      "sha256": "8eda692fb8d5fd991b1bef13da7e566143adbbfb93182997a08d66b2b547bd9e",
+      "bytes": 6183
+    },
+    "06_Tools/workspace-index/check_three_mechanism_figures.py": {
+      "sha256": "c37e89d6b898e965ab35cfa6c1b882668cff591dfb182c82e5ba0ba4ef851a78",
+      "bytes": 4414
+    },
+    "06_Tools/workspace-index/check_three_mechanism_lines.py": {
+      "sha256": "50343d5e02598d0de0286c030fc80611a5ea6cc2f04ec8053c13a7619b9c7e9d",
+      "bytes": 6873
+    },
+    "06_Tools/workspace-index/curate_paper_visuals.py": {
+      "sha256": "79ff0c280d0799a54de595d751709b0f9d01d0037d25853922fdc002387ad523",
+      "bytes": 21514
+    },
+    "06_Tools/workspace-index/detail_cost_probe.py": {
+      "sha256": "b952e2e861fdcc9c885594cf07fe87b78cec020abc3b92bd46e8b7ee1aee5e62",
+      "bytes": 7312
+    },
+    "06_Tools/workspace-index/export_compact_png.py": {
+      "sha256": "22deea3ad824aa463f8b1fd097085c3f6b70412b53c9506536be8d672adfec2d",
+      "bytes": 2475
+    },
+    "06_Tools/workspace-index/finish_table_iii.py": {
+      "sha256": "5e73bdb78adc7f1fe0f53703e9f9cdc81e77f4c98fb64538e3a44e630fa59d0a",
+      "bytes": 2389
+    },
+    "06_Tools/workspace-index/finish_table_iii_complete.py": {
+      "sha256": "8b5930ae823722a532422a98de91cacc1ea1cc20fd9f4f41e36f83433b67ffbf",
+      "bytes": 29939
+    },
+    "06_Tools/workspace-index/inspect_training_cost.py": {
+      "sha256": "5dc6c417141356735be1cb753541dec268e32c251b52137ed2f35092ba244275",
+      "bytes": 2152
+    },
+    "06_Tools/workspace-index/inspect_visual_sources.py": {
+      "sha256": "84909f9c3d81fdf3bceb42d6226bea90184c05be875a92964d5d5e83a3f4eed4",
+      "bytes": 2913
+    },
+    "06_Tools/workspace-index/journal_visuals_common.py": {
+      "sha256": "7be368513ad17b3f2fc59576d3b59da01e7b9d3d981b03606e883b7446a08990",
+      "bytes": 14331
+    },
+    "06_Tools/workspace-index/package_paper_visuals.py": {
+      "sha256": "9545f4c80f089ada655c6962b8c14db361d3162a55619337792e008988bde941",
+      "bytes": 4106
+    },
+    "06_Tools/workspace-index/publish_table_iii.py": {
+      "sha256": "be665f2484a092412e0450025285803fdda8b20dc07a1aa2937d4510324ea3f1",
+      "bytes": 26559
+    },
+    "06_Tools/workspace-index/recover_fusion_progress.py": {
+      "sha256": "298bed7ee002782c82c5d5e7b039a9c72ea259e736cce3881d67195a9d13669a",
+      "bytes": 7338
+    },
+    "06_Tools/workspace-index/revise_paper_comparisons.py": {
+      "sha256": "0e4fa113a400d00e1dd04f69a328cecc03542d415f2a8c336169cb6abbabb2ab",
+      "bytes": 35713
+    },
+    "06_Tools/workspace-index/run_extraction_scaling.py": {
+      "sha256": "aa7faef41e9312e8b32c5a246eac3f19f6a0aa5ef04d5fe6ca7e316266937a2a",
+      "bytes": 2493
+    },
+    "06_Tools/workspace-index/run_table_iii.py": {
+      "sha256": "1b1084f67bf814fd0106b46f94c70032cfb8e2a40f85967654ae15aef181e991",
+      "bytes": 18656
+    },
+    "06_Tools/workspace-index/run_training_scaling.py": {
+      "sha256": "1a6620e8244ab7687b261d2e9f7f2faddba5dfbb0bb01e1b6a1ee69cfb39b908",
+      "bytes": 2496
+    },
+    "06_Tools/workspace-index/start_table_iii_complete.ps1": {
+      "sha256": "cedf75eea37ec31a7671fcfedfcb4f4b883510ab2f851e54605cad040055e26f",
+      "bytes": 1935
+    },
+    "06_Tools/workspace-index/table_iii_detector_compat.py": {
+      "sha256": "42e45a94f842dda5b15c8ccf84c56c513c154f7b229fbd37231385bd6b7d4ee2",
+      "bytes": 2718
+    },
+    "06_Tools/workspace-index/table_iii_profiler.py": {
+      "sha256": "423781c0e13372e762de15d74e528262d96f9d4a5cc3b0f6f23fc23e56408294",
+      "bytes": 25355
+    },
+    "06_Tools/workspace-index/training_cost_probe.py": {
+      "sha256": "ff84c4a115fc6f67f599c819c832cd9793bf320b60ab8f02b23086fe4ff338bf",
+      "bytes": 18197
+    },
+    "06_Tools/workspace-index/watch_table_iii_complete.ps1": {
+      "sha256": "76d03db6c339d4692c30f9292d0b819270ab5735d7cc3bbc73a87e01da3543a0",
+      "bytes": 2026
+    },
+    "workspace-layout.json": {
+      "sha256": "b6de6855f20c8ec9f1decd34d5f06c491e6438694caffcd5da5c6b9093a1f741",
+      "bytes": 6888
+    }
+  }
+}

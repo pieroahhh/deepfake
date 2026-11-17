@@ -1,0 +1,44 @@
+{
+  "status": "RECONSTRUCTION_CHOICES_NOT_AUTHOR_VERIFIED",
+  "factorized_vivit": {
+    "image_size": 224,
+    "frames": 32,
+    "tubelet": [
+      2,
+      16,
+      16
+    ],
+    "dimension": 768,
+    "spatial_depth": 12,
+    "temporal_depth": 4,
+    "heads": 12,
+    "mlp_ratio": 4,
+    "dropout": 0.0,
+    "layer_norm_epsilon": 1e-06,
+    "input_normalization": "rgb_unit_interval_to_minus_one_plus_one",
+    "checkpoint": null,
+    "resize": "bilinear_stretch_antialias_true"
+  },
+  "ast": {
+    "implementation": "transformers.ASTModel",
+    "patch_size": 16,
+    "frequency_stride": 10,
+    "time_stride": 10,
+    "feature_token": "cls",
+    "feature_dimension": 768,
+    "local_pretrained_directory": null
+  },
+  "avhubert": {
+    "implementation": "official_AVHubertModel.extract_finetune",
+    "feature_dimension": 768,
+    "python": "3.8",
+    "local_pretrained_checkpoint": null
+  },
+  "fk": {
+    "visual_implementation": "torchvision.efficientnet_b0.features_then_average_pool",
+    "audio_implementation": "transformers.Wav2Vec2Model.last_hidden_state",
+    "audio_sample_rate": 16000,
+    "audio_encoding_unit": "each_two_second_window",
+    "local_pretrained_artifacts": null
+  }
+}

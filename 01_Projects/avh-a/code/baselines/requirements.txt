@@ -1,0 +1,15 @@
+# Windows/Linux comparator runtime. AV-HuBERT has a separate Python 3.8 runtime.
+torch==2.2.2
+torchvision==0.17.2
+torchaudio==2.2.2
+numpy==1.26.4
+facenet-pytorch==2.6.0
+Pillow==10.2.0
+librosa==0.10.2.post1
+av==18.1.0
+opencv-python-headless==4.10.0.84
+soundfile==0.13.1
+safetensors==0.4.5
+transformers==4.44.2
+scikit-learn==1.5.2
+python-speech-features==0.6

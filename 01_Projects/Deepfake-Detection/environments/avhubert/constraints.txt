@@ -1,0 +1,13 @@
+# Project compatibility choices for Python 3.8, not an author environment lock.
+# Cython 3 and current isolated build environments do not target this legacy tree.
+pip==23.3.2
+setuptools==59.5.0
+wheel==0.41.3
+Cython==0.29.36
+numpy==1.23.5
+torch==1.13.1+cpu
+torchaudio==0.13.1+cpu
+hydra-core==1.0.7
+omegaconf==2.0.6
+PyYAML==6.0.1
+sacrebleu==2.4.3

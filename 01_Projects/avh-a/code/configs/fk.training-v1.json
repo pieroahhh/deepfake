@@ -1,0 +1,17 @@
+{
+  "profile_id": "fk-training-reconstruction-v1",
+  "status": "PROVISIONAL_TRAINING_CHOICES_REQUIRE_PILOT_VALIDATION",
+  "optimizer": "AdamW",
+  "learning_rate": 0.0001,
+  "weight_decay": 0.0001,
+  "maximum_epochs": 50,
+  "patience": 5,
+  "gradient_clip_norm": 1.0,
+  "window_loss_weight": 1.0,
+  "bin_loss_weight": 1.0,
+  "seed": 7,
+  "deterministic": true,
+  "batch_unit": "one_complete_video_all_usable_windows",
+  "selection_metric": "mean_validation_video_loss",
+  "checkpoint_ties": "first_strict_improvement"
+}

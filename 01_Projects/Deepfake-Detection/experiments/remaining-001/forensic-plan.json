@@ -1,0 +1,183 @@
+{
+  "status": "PREPARED_NOT_RUN",
+  "selected_source_examples": [
+    {
+      "annotation_bounds_adjustments": {},
+      "audio_label": 1,
+      "audio_manipulated_intervals": [
+        [
+          1.6,
+          1.98
+        ],
+        [
+          3.3,
+          3.63
+        ]
+      ],
+      "dataset": "AV-Deepfake1M",
+      "duration": 14.28,
+      "label": 1,
+      "manipulated_intervals": [
+        [
+          1.6,
+          1.98
+        ],
+        [
+          3.3,
+          3.63
+        ]
+      ],
+      "modality_annotation_conflicts": {},
+      "path": "val/id09171/4TcInzUCrQk/00057/real_video_fake_audio.mp4",
+      "release": "metadata-sha256:8d4b6533164a5c12cde0bde7274b709231bf18affc6a3bffb9605c89d8687fdc",
+      "source_family": "voxceleb2:VoxCeleb2/dev/mp4/id09171/4TcInzUCrQk/00057.mp4",
+      "source_modify_type": "audio_modified",
+      "source_overlap_policy": "keep-official",
+      "source_sha256": "634055f16605b4e6f4c7c1c86d68df788654fd6eed14689710ccd5b41ec43e32",
+      "split": "test",
+      "temporal_complete": true,
+      "video_id": "val/id09171/4TcInzUCrQk/00057/real_video_fake_audio.mp4",
+      "visual_label": 0,
+      "visual_manipulated_intervals": [],
+      "official_split": "validation"
+    },
+    {
+      "annotation_bounds_adjustments": {},
+      "audio_label": 1,
+      "audio_manipulated_intervals": [
+        [
+          1.26,
+          1.62
+        ],
+        [
+          9.38,
+          9.8
+        ],
+        [
+          11.06,
+          11.36
+        ]
+      ],
+      "dataset": "AV-Deepfake1M",
+      "duration": 26.24,
+      "label": 1,
+      "manipulated_intervals": [
+        [
+          1.26,
+          1.62
+        ],
+        [
+          9.38,
+          9.8
+        ],
+        [
+          11.06,
+          11.36
+        ]
+      ],
+      "modality_annotation_conflicts": {},
+      "path": "val/id08804/kw0vIKJUvNA/00386/fake_video_fake_audio.mp4",
+      "release": "metadata-sha256:8d4b6533164a5c12cde0bde7274b709231bf18affc6a3bffb9605c89d8687fdc",
+      "source_family": "voxceleb2:VoxCeleb2/dev/mp4/id08804/kw0vIKJUvNA/00386.mp4",
+      "source_modify_type": "both_modified",
+      "source_overlap_policy": "keep-official",
+      "source_sha256": "a057c6293b2e78376b0ca8ad67bba0ddc608a795e2f9d25d99a8300cf4db9419",
+      "split": "test",
+      "temporal_complete": true,
+      "video_id": "val/id08804/kw0vIKJUvNA/00386/fake_video_fake_audio.mp4",
+      "visual_label": 1,
+      "visual_manipulated_intervals": [
+        [
+          1.26,
+          1.62
+        ],
+        [
+          9.38,
+          9.8
+        ],
+        [
+          11.06,
+          11.36
+        ]
+      ],
+      "official_split": "validation"
+    },
+    {
+      "annotation_bounds_adjustments": {},
+      "audio_label": 0,
+      "audio_manipulated_intervals": [],
+      "dataset": "AV-Deepfake1M",
+      "duration": 8.28,
+      "label": 0,
+      "manipulated_intervals": [],
+      "modality_annotation_conflicts": {},
+      "path": "val/id03298/E0Iqx5abf64/00181/real.mp4",
+      "release": "metadata-sha256:8d4b6533164a5c12cde0bde7274b709231bf18affc6a3bffb9605c89d8687fdc",
+      "source_family": "voxceleb2:VoxCeleb2/dev/mp4/id03298/E0Iqx5abf64/00181.mp4",
+      "source_modify_type": "real",
+      "source_overlap_policy": "keep-official",
+      "source_sha256": "7ac74c5366cd4244dff8bf8dc08095837ec55d16254001e1f53745da4810e72f",
+      "split": "test",
+      "temporal_complete": true,
+      "video_id": "val/id03298/E0Iqx5abf64/00181/real.mp4",
+      "visual_label": 0,
+      "visual_manipulated_intervals": [],
+      "official_split": "validation"
+    },
+    {
+      "annotation_bounds_adjustments": {},
+      "audio_label": 0,
+      "audio_manipulated_intervals": [],
+      "dataset": "AV-Deepfake1M",
+      "duration": 7.488,
+      "label": 1,
+      "manipulated_intervals": [
+        [
+          1.82,
+          1.96
+        ]
+      ],
+      "modality_annotation_conflicts": {},
+      "path": "val/id06121/6yqe1rOGtPA/00030/fake_video_real_audio.mp4",
+      "release": "metadata-sha256:8d4b6533164a5c12cde0bde7274b709231bf18affc6a3bffb9605c89d8687fdc",
+      "source_family": "voxceleb2:VoxCeleb2/dev/mp4/id06121/6yqe1rOGtPA/00030.mp4",
+      "source_modify_type": "visual_modified",
+      "source_overlap_policy": "keep-official",
+      "source_sha256": "8e95996c0054d8ed400ae9b4caf4e64e3798a5c7223122eed409bf96ddb5e419",
+      "split": "test",
+      "temporal_complete": true,
+      "video_id": "val/id06121/6yqe1rOGtPA/00030/fake_video_real_audio.mp4",
+      "visual_label": 1,
+      "visual_manipulated_intervals": [
+        [
+          1.82,
+          1.96
+        ]
+      ],
+      "official_split": "validation"
+    }
+  ],
+  "additional_cases": [
+    "no usable windows",
+    "partial coverage",
+    "no audio",
+    "short/incomplete media",
+    "near-threshold software fixture"
+  ],
+  "mutations": [
+    "source bytes",
+    "derived artifact bytes",
+    "one evidence contribution",
+    "source timestamp",
+    "decision threshold",
+    "coverage field"
+  ],
+  "checks": [
+    "original commitment matches retained trusted reference",
+    "bin/window/video decision reconstruction matches",
+    "each corruption is detected",
+    "null assessments are preserved"
+  ],
+  "ground_truth_limit": "Integrity and decision reconstruction do not prove media authenticity or prediction correctness",
+  "real_record_status": "Need source-bound raw-media records; synthetic demo/tests are software evidence only"
+}

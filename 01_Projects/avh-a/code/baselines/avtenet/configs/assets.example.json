@@ -1,0 +1,17 @@
+{
+  "schema": "baseline-assets-v1",
+  "experts": {
+    "visual": {"directory": null, "manifest": null},
+    "audio": {"directory": null, "manifest": null},
+    "audiovisual": {
+      "repository": null, "commit": null, "checkpoint": null, "checkpoint_sha256": null,
+      "preparation": {
+        "image_mean": 0.421, "image_std": 0.165, "crop_size": 88,
+        "stack_order_audio": 4, "normalize_audio": true,
+        "filterbank_settings": {"winlen": 0.025, "winstep": 0.01, "nfilt": 26,
+          "nfft": 512, "lowfreq": 0, "highfreq": 8000, "preemph": 0.97},
+        "alignment_policy": "MTCNN_5point_geometric_reconstruction_not_LRS3"
+      }
+    }
+  }
+}
