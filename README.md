@@ -1,6 +1,6 @@
-# Research source code for supervisor review
 
-This branch contains the current deepfake detection implementation and the
+
+This RAEDME contains the current deepfake detection implementation and the
 source used for baseline evaluation, internal controls, forensic records, and
 runtime measurements. The existing workspace layout is preserved so its path
 adapters can find both native runtimes after cloning.
